@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>all libraries - doespythonhaveit</title>
+		<link
+			rel="shortcut icon"
+			href="static/assets/favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="static/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
+		<style>
+			header {
+				margin-bottom: 0;
+			}
+			#all {
+				display: grid;
+				gap: 15px;
+				width: 100%;
+				max-width: 600px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Search</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="cli.html">CLI Tool</a></li>
+				<li>
+					<a href="https://github.com/hasboi/doespythonhaveit" target="_blank"
+						>Repo</a
+					>
+				</li>
+				<li><a href="all.html" class="active">All libraries</a></li>
+			</ul>
+		</nav>
+		<header>
+			<img src="static/assets/python.png" alt="python" class="python" />
+			<h1>doespythonhaveit.com</h1>
+			<p class="subtitle" id="listing"></p>
+		</header>
+		<main>
+			<div class="control-1">
+				<button class="prev control disabled">
+					<i class="fa-solid fa-chevron-left"></i>
+				</button>
+				<div id="text">
+					<input type="text" class="page" value="1" />
+					out of 21 pages
+				</div>
+				<button class="next control">
+					<i class="fa-solid fa-chevron-right"></i>
+				</button>
+			</div>
+			<div id="loading" style="display: none">
+				<img src="static/assets/hi-python.gif" alt="hi python" />
+				<p>please wait while we are searching...</p>
+			</div>
+			<div id="error" style="display: none">
+				<img src="static/assets/head-massage-python.gif" alt="not found" />
+				<div class="description">
+					<h4>oops...</h4>
+					<p>no library found with that keyword. wanna suggest one?</p>
+					<a href="suggest/" id="suggest">yes, captain!</a>
+				</div>
+			</div>
+			<div id="all"></div>
+			<div class="control-2">
+				<button class="prev control disabled">
+					<i class="fa-solid fa-chevron-left"></i>
+				</button>
+				<div id="text">
+					<input type="text" class="page" value="1" />
+					out of 21 pages
+				</div>
+				<button class="next control">
+					<i class="fa-solid fa-chevron-right"></i>
+				</button>
+			</div>
+		</main>
+		<script src="static/js/all.js" type="module"></script>
+	</body>
+</html>

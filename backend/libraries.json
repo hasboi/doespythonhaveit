@@ -1,0 +1,3029 @@
+[
+    {
+        "name": "langchain",
+        "category": "Agentic AI",
+        "user_desc": "Framework for building powerful LLM-based applications that can reason, retrieve information, call APIs, and interact with external tools.",
+        "search_desc": "A modular framework that helps developers connect language models with data sources, APIs, and reasoning chains. Enables building retrieval-augmented generation (RAG) systems, autonomous agents, document QA bots, and other advanced AI workflows through prompt orchestration and tool integration.",
+        "keywords": 
+        [
+            "agentic-ai",
+            "llm-framework",
+            "prompt-engineering",
+            "rag",
+            "document-retrieval",
+            "api-tools",
+            "memory",
+            "multi-step-reasoning"
+        ],
+        "link": "https://api.python.langchain.com/en/latest/"
+    },
+    {
+        "name": "autogen",
+        "category": "Agentic AI",
+        "user_desc": "Multi-agent coordination system for letting AI roles talk, plan, and hand off tasks automatically.",
+        "search_desc": "Multi-agent orchestration system that enables role-based planning, conversational collaboration, and automated handoffs. Useful for decomposing complex jobs into coordinated agent workflows and distributed decision-making.",
+        "keywords": 
+        [
+            "multi-agent",
+            "agent-collaboration",
+            "workflow-orchestration",
+            "planning",
+            "task-decomposition"
+        ],
+        "link": "https://microsoft.github.io/autogen/stable//index.html"
+    },
+    {
+        "name": "black",
+        "category": "Code Quality",
+        "user_desc": "Zero-config, opinionated Python formatter that enforces a single consistent style so teams don't argue about formatting.",
+        "search_desc": "Deterministic, zero-configuration code formatter that reformats Python to a stable, opinionated style. Ideal for CI and teams wanting consistent diffs and fewer style debates.",
+        "keywords": 
+        [
+            "formatter",
+            "code-style",
+            "deterministic",
+            "ci-friendly"
+        ],
+        "link": "https://black.readthedocs.io/"
+    },
+    {
+        "name": "flake8",
+        "category": "Code Quality",
+        "user_desc": "Lightweight linter to catch PEP8-style problems and simple bugs quickly, extensible with plugins.",
+        "search_desc": "Static analysis wrapper applying PEP8-style checks and plugin rules to detect style issues and simple errors. Commonly used in developer feedback loops and CI to enforce conventions.",
+        "keywords": 
+        [
+            "linter",
+            "pep8",
+            "static-analysis",
+            "plugins",
+            "ci-linting"
+        ],
+        "link": "https://flake8.pycqa.org/"
+    },
+    {
+        "name": "isort",
+        "category": "Code Quality",
+        "user_desc": "Automatically sorts and groups imports to keep files tidy and reduce merge conflicts.",
+        "search_desc": "Deterministic import sorter that groups and orders Python imports according to configurable rules. Helps normalize module layout across projects and reduce merge friction.",
+        "keywords": 
+        [
+            "import-sorting",
+            "tidy-imports",
+            "merge-conflict-reduction",
+            "normalize-imports"
+        ],
+        "link": "https://pycqa.github.io/isort/"
+    },
+    {
+        "name": "pylint",
+        "category": "Code Quality",
+        "user_desc": "Thorough static analyzer with configurable rules and a quality score, good for deep checks and refactor guidance.",
+        "search_desc": "Rule-based static analysis tool that reports coding errors, style violations, and code smells, producing a configurable quality score. Useful for enforcing coding standards and guiding large refactors.",
+        "keywords": 
+        [
+            "static-analysis",
+            "linting",
+            "code-quality",
+            "quality-score"
+        ],
+        "link": "https://pylint.readthedocs.io/en/stable/"
+    },
+    {
+        "name": "mypy",
+        "category": "Code Quality",
+        "user_desc": "Static type checker for Python, catches type mismatches when you use type hints.",
+        "search_desc": "Type-checking analyzer that inspects function and variable annotations to detect type mismatches and enforce interface contracts. Helpful for maintainability in larger codebases and API stability.",
+        "keywords": 
+        [
+            "type-checking",
+            "static-types",
+            "type-hints",
+            "annotations"
+        ],
+        "link": "https://mypy-lang.org/"
+    },
+    {
+        "name": "web3.py",
+        "category": "Crypto and Blockchain",
+        "user_desc": "Python client for interacting with Ethereum nodes and smart contracts, use it for wallets, txs, and on-chain reads.",
+        "search_desc": "Developer library for connecting to Ethereum RPCs, building and signing transactions, calling smart-contract methods, and reading on-chain state. Suitable for dApp tooling, wallets, and chain analysis.",
+        "keywords": 
+        [
+            "ethereum",
+            "smart-contracts",
+            "transactions",
+            "rpc",
+            "wallets"
+        ],
+        "link": "https://web3py.readthedocs.io/"
+    },
+    {
+        "name": "cryptography",
+        "category": "Crypto and Blockchain",
+        "user_desc": "Secure, standard cryptographic primitives and high-level recipes for encryption, hashing, and signing.",
+        "search_desc": "Library offering standard-compliant primitives and high-level recipes for encryption, hashing, digital signatures, key generation, and secure storage to avoid custom crypto mistakes.",
+        "keywords": 
+        [
+            "encryption",
+            "signatures",
+            "hashing",
+            "key-management",
+            "secure-primitives"
+        ],
+        "link": "https://cryptography.io/"
+    },
+    {
+        "name": "pandas",
+        "category": "Data",
+        "user_desc": "Primary library for tabular data: DataFrames, joins, groupby, cleaning, and CSV/Excel I/O.",
+        "search_desc": "Flexible DataFrame API for cleaning, transforming, aggregating, joining, and reading/writing structured tabular data. Widely used for ETL, analysis, and time-series helpers in Python data workflows.",
+        "keywords": 
+        [
+            "dataframe",
+            "tabular-data",
+            "io",
+            "aggregation",
+            "etl",
+            "data-analysis"
+        ],
+        "link": "https://pandas.pydata.org/"
+    },
+    {
+        "name": "numpy",
+        "category": "Data",
+        "user_desc": "Fast N-dimensional arrays and vectorized math, the foundation for numerical and ML work.",
+        "search_desc": "Core library providing efficient N-dimensional ndarray objects, broadcasting semantics, and linear algebra primitives for numerical computing and as a foundation for scientific and ML libraries.",
+        "keywords": 
+        [
+            "ndarray",
+            "numerical-arrays",
+            "broadcasting",
+            "linear-algebra"
+        ],
+        "link": "https://numpy.org/doc/"
+    },
+    {
+        "name": "polars",
+        "category": "Data",
+        "user_desc": "High-performance DataFrame engine for very large tables and fast parallel queries.",
+        "search_desc": "Columnar, memory-efficient DataFrame engine with parallel execution and lazy evaluation. Designed as a fast alternative to pandas for large-scale ETL and analytics workloads.",
+        "keywords": 
+        [
+            "fast-dataframe",
+            "columnar",
+            "parallel-execution",
+            "lazy-evaluation"
+        ],
+        "link": "https://docs.pola.rs/"
+    },
+    {
+        "name": "dask",
+        "category": "Data",
+        "user_desc": "Scale pandas/NumPy code across cores or clusters for out-of-core processing.",
+        "search_desc": "Parallel computing layer that constructs task graphs to execute pandas-like and NumPy-like workflows across threads, processes, or clusters for out-of-core and distributed data processing.",
+        "keywords": 
+        [
+            "parallel-computing",
+            "out-of-core",
+            "task-graph",
+            "distributed"
+        ],
+        "link": "https://dask.org/"
+    },
+    {
+        "name": "pyarrow",
+        "category": "Data",
+        "user_desc": "Columnar in-memory format and Parquet I/O for fast interchange and storage.",
+        "search_desc": "Columnar memory layout and tooling for zero-copy data interchange, fast Parquet serialization, and cross-language pipelines enabling high-performance in-memory analytics and storage.",
+        "keywords": 
+        [
+            "arrow-format",
+            "parquet",
+            "zero-copy",
+            "fast-io"
+        ],
+        "link": "https://arrow.apache.org/"
+    },
+    {
+        "name": "pdb",
+        "category": "Debugging",
+        "user_desc": "Built-in line-by-line debugger to set breakpoints and inspect variables.",
+        "search_desc": "Interactive line-level debugger that supports breakpoints, stepping, stack inspection, and expression evaluation to trace runtime flow and diagnose errors in Python programs.",
+        "keywords": 
+        [
+            "debugger",
+            "breakpoints",
+            "step-through",
+            "stack-inspection"
+        ],
+        "link": "https://docs.python.org/3/library/pdb.html"
+    },
+    {
+        "name": "ipdb",
+        "category": "Debugging",
+        "user_desc": "pdb with IPython niceties like tab completion and nicer tracebacks.",
+        "search_desc": "Enhanced interactive debugger combining pdb semantics with IPython conveniences, improved tracebacks, tab completion, and a richer REPL for faster interactive debugging.",
+        "keywords": 
+        [
+            "interactive-debugger",
+            "ipython",
+            "tab-completion",
+            "nicer-tracebacks"
+        ],
+        "link": "https://github.com/gotcha/ipdb"
+    },
+    {
+        "name": "icecream",
+        "category": "Debugging",
+        "user_desc": "Tiny utility (`ic()`) that prints expressions and values in readable debug output.",
+        "search_desc": "Minimal instrumentation helper that prints both expressions and runtime values in a compact, readable format for quick ad-hoc debugging without a full debugger session.",
+        "keywords": 
+        [
+            "debug-print",
+            "ic",
+            "quick-inspect",
+            "ad-hoc-debugging"
+        ],
+        "link": "https://github.com/gruns/icecream"
+    },
+    {
+        "name": "rich",
+        "category": "Debugging",
+        "user_desc": "Makes terminal output beautiful, tables, progress bars, and better tracebacks.",
+        "search_desc": "Human-friendly terminal formatting library for rendering rich text, tables, progress indicators, and improved exception tracebacks to boost CLI UX and debugging clarity.",
+        "keywords": 
+        [
+            "pretty-terminal",
+            "tables",
+            "progress-bars",
+            "tracebacks"
+        ],
+        "link": "https://rich.readthedocs.io/"
+    },
+    {
+        "name": "diffusers",
+        "category": "Diffusion Text to Image",
+        "user_desc": "Modular pipelines and schedulers for prototyping diffusion-based text→image models like Stable Diffusion.",
+        "search_desc": "Pluggable diffusion pipelines, schedulers, and prompt processing utilities for building and experimenting with text-to-image generation workflows. Supports model chaining, sampling strategies, and prompt engineering use cases.",
+        "keywords": 
+        [
+            "text-to-image",
+            "diffusion",
+            "stable-diffusion",
+            "pipelines",
+            "ai-art"
+        ],
+        "link": "https://huggingface.co/docs/diffusers/"
+    },
+    {
+        "name": "invoke-ai",
+        "category": "Diffusion Text to Image",
+        "user_desc": "Local-first GUI for running and tweaking diffusion models with presets and an accessible UI.",
+        "search_desc": "User-friendly local image-generation tooling providing GUI presets, model management, prompt editing, and utilities to run diffusion models offline with minimal setup.",
+        "keywords": 
+        [
+            "local-image-generation",
+            "gui",
+            "presets",
+            "model-tuning",
+            "ai-art"
+        ],
+        "link": "https://github.com/invoke-ai/InvokeAI"
+    },
+    {
+        "name": "comfyui",
+        "category": "Diffusion Text to Image",
+        "user_desc": "Node-based visual builder for composing image-generation flows without writing code.",
+        "search_desc": "Visual node-graph workflow builder that composes modular processing nodes into complex diffusion pipelines, enabling iterative prompt processing, model chaining, and postprocessing experiments.",
+        "keywords": 
+        [
+            "node-graph",
+            "visual-pipeline",
+            "diffusion-workflow",
+            "composable-nodes"
+        ],
+        "link": "https://www.comfy.org/"
+    },
+    {
+        "name": "yfinance",
+        "category": "Finance",
+        "user_desc": "Quickly pull historical stock quotes into pandas for analysis and backtesting.",
+        "search_desc": "Wrapper for fetching historical price series, OHLCV time series, and basic financial metrics into pandas-ready structures for analysis, visualization, and backtesting workflows.",
+        "keywords": 
+        [
+            "historical-prices",
+            "market-data",
+            "ohlcv",
+            "time-series"
+        ],
+        "link": "https://pypi.org/project/yfinance/"
+    },
+    {
+        "name": "datetime",
+        "category": "Utility",
+        "user_desc": "Python's built-in module for creating, formatting, and manipulating dates and times.",
+        "search_desc": "Standard-library utilities for creating, formatting, comparing, and converting timezone-aware datetimes and timestamps to support scheduling, logging, and temporal calculations.",
+        "keywords": 
+        [
+            "dates",
+            "times",
+            "timedelta",
+            "timezone"
+        ],
+        "link": "https://docs.python.org/3/library/datetime.html"
+    },
+    {
+        "name": "pandas-datareader",
+        "category": "Finance",
+        "user_desc": "Connector to pull financial and economic data from public APIs directly into pandas.",
+        "search_desc": "Data connector that retrieves market quotes, macroeconomic series, and external financial datasets into pandas structures for analysis, reporting, and backtesting.",
+        "keywords": 
+        [
+            "financial-data",
+            "economic-indicators",
+            "data-connector",
+            "pandas-integration"
+        ],
+        "link": "https://pandas-datareader.readthedocs.io/"
+    },
+    {
+        "name": "quantstats",
+        "category": "Finance",
+        "user_desc": "Generates performance reports and risk metrics for trading strategies and portfolios.",
+        "search_desc": "Analytics helper that computes performance summaries, risk-adjusted metrics, drawdowns, and exposures to evaluate trading strategies and produce reproducible tear sheets.",
+        "keywords": 
+        [
+            "performance-report",
+            "risk-metrics",
+            "tear-sheet",
+            "strategy-analytics"
+        ],
+        "link": "https://github.com/ranaroussi/quantstats"
+    },
+    {
+        "name": "zipline",
+        "category": "Finance",
+        "user_desc": "Event-driven backtester for simulating trading strategies with portfolio accounting.",
+        "search_desc": "Backtesting engine that models order execution, slippage, and portfolio accounting to validate algorithmic trading ideas against historical market data.",
+        "keywords": 
+        [
+            "backtesting",
+            "trading-simulation",
+            "portfolio-simulation",
+            "historical-orders"
+        ],
+        "link": "https://zipline.ml4trading.io/"
+    },
+    {
+        "name": "pygame",
+        "category": "Game Development",
+        "user_desc": "Simple 2D game library for learning game dev: sprites, input, audio, and game loop.",
+        "search_desc": "Multimedia framework for prototyping 2D games and interactive demos; handles rendering, input events, audio playback, and frame-based loops for learning and small projects.",
+        "keywords": 
+        [
+            "2d-games",
+            "sprites",
+            "game-loop",
+            "input-handling"
+        ],
+        "link": "https://www.pygame.org/"
+    },
+    {
+        "name": "arcade",
+        "category": "Game Development",
+        "user_desc": "Beginner-friendly 2D game library with a simpler API for quick prototypes and teaching.",
+        "search_desc": "Lightweight rendering and physics framework designed for teaching and rapid creation of arcade-style games with simple abstractions for drawing, collisions, and input handling.",
+        "keywords": 
+        [
+            "2d-framework",
+            "education",
+            "rendering",
+            "collision"
+        ],
+        "link": "https://api.arcade.academy/"
+    },
+    {
+        "name": "ursina",
+        "category": "Game Development",
+        "user_desc": "Easy 3D prototyping toolkit that hides graphics boilerplate so you can focus on gameplay.",
+        "search_desc": "Beginner-friendly 3D engine that abstracts rendering, scene management, and input to let developers build simple worlds and mechanics without deep graphics code.",
+        "keywords": 
+        [
+            "3d-prototyping",
+            "scene-management",
+            "simplified-rendering",
+            "gameplay"
+        ],
+        "link": "https://www.ursinaengine.org/"
+    },
+    {
+        "name": "geopandas",
+        "category": "GIS",
+        "user_desc": "Pandas-like API for geospatial tables (GeoDataFrames), spatial joins, reprojection, and analysis.",
+        "search_desc": "Spatial DataFrame layer that combines tabular operations with geometry types, coordinate-aware joins, reprojections, and spatial predicates to clean, analyze, and visualize geodata.",
+        "keywords": 
+        [
+            "geospatial",
+            "geodataframe",
+            "spatial-join",
+            "reprojection"
+        ],
+        "link": "https://geopandas.org/"
+    },
+    {
+        "name": "shapely",
+        "category": "GIS",
+        "user_desc": "Geometry toolkit for union, intersection, buffering, and precise spatial math.",
+        "search_desc": "Precision geometry library providing operations like union, intersection, buffering, and spatial predicates for geometry cleanup and spatial analysis workflows.",
+        "keywords": 
+        [
+            "geometry-operations",
+            "buffer",
+            "intersection",
+            "spatial-predicates"
+        ],
+        "link": "https://shapely.readthedocs.io/"
+    },
+    {
+        "name": "folium",
+        "category": "GIS",
+        "user_desc": "Create interactive Leaflet maps from Python data for dashboards and embeds.",
+        "search_desc": "HTML map generator that binds geographic data to interactive Leaflet maps with markers, popups, tile layers, and embeddable outputs for location visualization and basic mapping dashboards.",
+        "keywords": 
+        [
+            "interactive-maps",
+            "leaflet",
+            "map-embed",
+            "popups"
+        ],
+        "link": "https://python-visualization.github.io/folium/"
+    },
+    {
+        "name": "rasterio",
+        "category": "GIS",
+        "user_desc": "Read/write GeoTIFFs and handle raster imagery with geospatial metadata.",
+        "search_desc": "Raster I/O utilities and coordinate helpers to read/write satellite imagery and GeoTIFFs, access metadata, perform reprojections, and manipulate pixel-level raster data for geospatial workflows.",
+        "keywords": 
+        [
+            "raster-io",
+            "geotiff",
+            "imagery",
+            "reprojection"
+        ],
+        "link": "https://rasterio.readthedocs.io/"
+    },
+    {
+        "name": "networkx",
+        "category": "Graph",
+        "user_desc": "Flexible Python library for building, analyzing, and visualizing graphs and networks.",
+        "search_desc": "Graph data structures and algorithms for constructing networks, computing shortest paths, centralities, communities, and performing visual exploration for research and prototyping.",
+        "keywords": 
+        [
+            "graph-analysis",
+            "nodes-edges",
+            "shortest-path",
+            "centrality"
+        ],
+        "link": "https://networkx.org/"
+    },
+    {
+        "name": "igraph",
+        "category": "Graph",
+        "user_desc": "Optimized graph analytics toolkit for large networks and faster algorithms.",
+        "search_desc": "High-performance graph analytics library with efficient community detection, shortest paths, and network measures designed for large-scale networks beyond pure Python speed limits.",
+        "keywords": 
+        [
+            "fast-graph-analytics",
+            "community-detection",
+            "large-networks",
+            "performance"
+        ],
+        "link": "https://igraph.org/python/"
+    },
+    {
+        "name": "pyvis",
+        "category": "Graph",
+        "user_desc": "Turn Python graph objects into interactive web visualizations (vis.js) for demos.",
+        "search_desc": "Bridge to browser-based network visualizations using vis.js to produce interactive diagrams with force layouts, clickable nodes, and embeddable network UIs for demos and exploration.",
+        "keywords": 
+        [
+            "interactive-networks",
+            "visjs",
+            "embeddable-visualization",
+            "clickable-nodes"
+        ],
+        "link": "https://pyvis.readthedocs.io/"
+    },
+    {
+        "name": "tkinter",
+        "category": "GUI",
+        "user_desc": "Standard-library UI toolkit for small desktop tools and simple dialogs, no extra installs.",
+        "search_desc": "Lightweight standard-library UI toolkit offering common widgets, event-driven programming, and cross-platform basics for simple desktop tools, prototypes, and educational apps.",
+        "keywords": 
+        [
+            "desktop-gui",
+            "widgets",
+            "dialogs",
+            "standard-library"
+        ],
+        "link": "https://docs.python.org/3/library/tkinter.html"
+    },
+    {
+        "name": "PySide6",
+        "category": "GUI",
+        "user_desc": "Qt for Python, build polished native-feeling desktop apps with advanced widgets.",
+        "search_desc": "Comprehensive Qt binding exposing advanced widgets, windowing, and designer-friendly components for building native-feeling, high-quality desktop applications in Python.",
+        "keywords": 
+        [
+            "qt-bindings",
+            "native-ui",
+            "advanced-widgets",
+            "cross-platform"
+        ],
+        "link": "https://doc.qt.io/qtforpython/"
+    },
+    {
+        "name": "kivy",
+        "category": "GUI",
+        "user_desc": "Touch-friendly, cross-platform toolkit for gesture-driven and mobile apps.",
+        "search_desc": "Multi-touch UI toolkit optimized for gesture-driven interfaces and mobile deployment that enables interactive applications across desktop and mobile without platform-specific native code.",
+        "keywords": 
+        [
+            "touch-ui",
+            "mobile",
+            "multi-touch",
+            "gestures"
+        ],
+        "link": "https://kivy.org/"
+    },
+    {
+        "name": "customtkinter",
+        "category": "GUI",
+        "user_desc": "Modern-looking themed widgets for tkinter, with minimal API changes.",
+        "search_desc": "Lightweight enhancement for tkinter that supplies pre-styled components, themes, and modern defaults to produce more attractive desktop interfaces with minimal code changes.",
+        "keywords": 
+        [
+            "styled-widgets",
+            "modern-tkinter",
+            "themes",
+            "enhanced-widgets"
+        ],
+        "link": "https://github.com/TomSchimansky/CustomTkinter"
+    },
+    {
+        "name": "jupyterlab",
+        "category": "Jupyter",
+        "user_desc": "Interactive data-science IDE, notebooks, terminals, file browser, and extensions in one place.",
+        "search_desc": "Integrated interactive environment combining notebooks, consoles, file management, and extensibility to support exploratory analysis, reproducible research, and plugin-driven workflows.",
+        "keywords": 
+        [
+            "notebook-ide",
+            "interactive-analysis",
+            "file-browser",
+            "extensions"
+        ],
+        "link": "https://jupyter.org/"
+    },
+    {
+        "name": "nbconvert",
+        "category": "Jupyter",
+        "user_desc": "Export Jupyter notebooks to HTML, slides, PDF, or scripts for sharing results.",
+        "search_desc": "Export utility that renders notebooks into HTML, PDF, slides, or executable scripts to share analyses and reports with non-notebook audiences and create presentation-ready outputs.",
+        "keywords": 
+        [
+            "export-notebooks",
+            "html",
+            "pdf",
+            "slides"
+        ],
+        "link": "https://nbconvert.readthedocs.io/"
+    },
+    {
+        "name": "voila",
+        "category": "Jupyter",
+        "user_desc": "Turn notebooks into interactive web apps that hide code and expose widgets.",
+        "search_desc": "Deployment layer converting Jupyter notebooks into interactive web applications by exposing widgets and outputs while hiding source code, great for dashboards and demos.",
+        "keywords": 
+        [
+            "notebook-to-app",
+            "interactive-widgets",
+            "dashboards",
+            "hide-code"
+        ],
+        "link": "https://voila.readthedocs.io/"
+    },
+    {
+        "name": "openai",
+        "category": "LLMs and ChatGPT",
+        "user_desc": "Official Python client to call hosted models for text generation, chat, and embeddings.",
+        "search_desc": "API client for generating text and chat completions, obtaining embeddings for semantic search, and integrating hosted models into applications for chatbots, RAG workflows, and content generation.",
+        "keywords": 
+        [
+            "api-client",
+            "embeddings",
+            "text-generation",
+            "chat-api",
+            "semantic-search"
+        ],
+        "link": "https://platform.openai.com/docs/libraries/python-library"
+    },
+    {
+        "name": "transformers",
+        "category": "LLMs and ChatGPT",
+        "user_desc": "Hugging Face library to load pretrained transformer models, tokenizers, and pipelines.",
+        "search_desc": "Ecosystem for loading pretrained transformer checkpoints, tokenization, inference pipelines, and fine-tuning workflows across architectures for NLP and multimodal model experimentation.",
+        "keywords": 
+        [
+            "pretrained-models",
+            "tokenizers",
+            "pipelines",
+            "fine-tuning"
+        ],
+        "link": "https://huggingface.co/docs/transformers/"
+    },
+    {
+        "name": "vllm",
+        "category": "LLMs and ChatGPT",
+        "user_desc": "High-throughput runtime optimized for serving LLMs with efficient batching and low latency.",
+        "search_desc": "Inference runtime engineered for batched and streaming LLM serving that maximizes hardware utilization, reduces latency, and supports high-performance production hosting scenarios.",
+        "keywords": 
+        [
+            "high-throughput-serving",
+            "low-latency",
+            "model-runtime",
+            "inference"
+        ],
+        "link": "https://github.com/vllm-project/vllm"
+    },
+    {
+        "name": "llama-cpp-python",
+        "category": "LLMs and ChatGPT",
+        "user_desc": "Bridge to run LLaMA-family models locally via the lightweight llama.cpp backend.",
+        "search_desc": "Local inference wrapper for the llama.cpp runtime enabling small-to-medium transformer models to run offline for privacy-focused experiments and local prototyping.",
+        "keywords": 
+        [
+            "local-llm",
+            "llama-cpp",
+            "offline-inference",
+            "privacy"
+        ],
+        "link": "https://github.com/abetlen/llama-cpp-python"
+    },
+    {
+        "name": "scipy",
+        "category": "Math and Science",
+        "user_desc": "Collection of numerical algorithms, optimization, integration, signal and image processing.",
+        "search_desc": "Scientific computing library providing optimizers, integrators, signal and image processing tools, special functions, and statistics for advanced numerical workflows beyond NumPy.",
+        "keywords": 
+        [
+            "optimization",
+            "integration",
+            "signal-processing",
+            "numerical-algorithms"
+        ],
+        "link": "https://www.scipy.org/"
+    },
+    {
+        "name": "sympy",
+        "category": "Math and Science",
+        "user_desc": "Symbolic math library for algebra, calculus, and exact arithmetic.",
+        "search_desc": "Tool for symbolic computation offering algebraic manipulation, symbolic differentiation/integration, equation solving, and exact arithmetic for analytic prototyping and teaching.",
+        "keywords": 
+        [
+            "symbolic-math",
+            "algebra",
+            "calculus",
+            "exact-arithmetic"
+        ],
+        "link": "https://www.sympy.org/"
+    },
+    {
+        "name": "numba",
+        "category": "Math and Science",
+        "user_desc": "JIT compiler to speed numeric Python functions and tight loops without rewriting in C.",
+        "search_desc": "Just-in-time compilation engine that translates annotated Python functions to fast native code to accelerate numeric loops and NumPy-heavy hotspots for performance gains.",
+        "keywords": 
+        [
+            "jit",
+            "performance",
+            "numeric-acceleration",
+            "compile-to-native"
+        ],
+        "link": "https://numba.pydata.org/"
+    },
+    {
+        "name": "matplotlib",
+        "category": "Vizualisation",
+        "user_desc": "Classic plotting library for full control over static 2D figures: lines, bars, histograms, and exports.",
+        "search_desc": "Low-level plotting toolkit offering control over figures, axes, and export formats to create publication-quality static visuals, custom charts, and figure composition in Python.",
+        "keywords": 
+        [
+            "static-plotting",
+            "figures",
+            "charts",
+            "export"
+        ],
+        "link": "https://matplotlib.org/"
+    },
+    {
+        "name": "scikit-learn",
+        "category": "ML - General",
+        "user_desc": "Well-rounded library for classical ML tasks: classification, regression, clustering, and pipelines.",
+        "search_desc": "Comprehensive collection of machine learning primitives, preprocessing tools, model selection utilities, and evaluation metrics for prototyping classical ML on tabular data and production-ready pipelines.",
+        "keywords": 
+        [
+            "classification",
+            "regression",
+            "clustering",
+            "pipelines",
+            "feature-engineering"
+        ],
+        "link": "https://scikit-learn.org/"
+    },
+    {
+        "name": "xgboost",
+        "category": "ML - General",
+        "user_desc": "Fast, regularized gradient boosting implementation for high-performance tabular models.",
+        "search_desc": "Optimized gradient-boosting library for fast training and inference on tabular data with regularization and feature importance utilities often used in competitions and production.",
+        "keywords": 
+        [
+            "gradient-boosting",
+            "tabular-models",
+            "ensemble",
+            "feature-importance"
+        ],
+        "link": "https://xgboost.readthedocs.io/"
+    },
+    {
+        "name": "lightgbm",
+        "category": "ML - General",
+        "user_desc": "Memory-efficient and very fast gradient boosting for large datasets.",
+        "search_desc": "Leaf-wise gradient boosting engine optimized for speed and low memory footprint that scales to large datasets and enables rapid training and inference for tabular tasks.",
+        "keywords": 
+        [
+            "fast-boosting",
+            "low-memory",
+            "scalable-training",
+            "tabular"
+        ],
+        "link": "https://lightgbm.readthedocs.io/"
+    },
+    {
+        "name": "catboost",
+        "category": "ML - General",
+        "user_desc": "Gradient boosting that natively handles categorical features with minimal preprocessing.",
+        "search_desc": "Boosted-tree framework that encodes categorical features natively, provides robust defaults, and simplifies preprocessing for reliable baseline performance on mixed-type tabular data.",
+        "keywords": 
+        [
+            "categorical-handling",
+            "gradient-boosting",
+            "minimal-preprocessing",
+            "tabular"
+        ],
+        "link": "https://catboost.ai/"
+    },
+    {
+        "name": "tensorflow",
+        "category": "ML - Deep Learning",
+        "user_desc": "Full-stack deep-learning ecosystem for model building, training, and deployment (including mobile/TPU runtimes).",
+        "search_desc": "Comprehensive ecosystem for constructing, training, and deploying neural networks with support for eager/graph modes, TPU/XLA acceleration, mobile runtimes, and production tooling for large-scale ML.",
+        "keywords": 
+        [
+            "deep-learning",
+            "model-training",
+            "deployment",
+            "tpu",
+            "tflite"
+        ],
+        "link": "https://www.tensorflow.org/"
+    },
+    {
+        "name": "torch",
+        "category": "ML - Deep Learning",
+        "user_desc": "PyTorch: flexible, research-friendly deep-learning library with dynamic graphs and large ecosystem.",
+        "search_desc": "Dynamic tensor library and neural network toolkit for rapid experimentation, fine-tuning, distributed training, and productionization with a rich ecosystem of models and tools.",
+        "keywords": 
+        [
+            "pytorch",
+            "tensors",
+            "dynamic-graphs",
+            "fine-tuning",
+            "deep-learning"
+        ],
+        "link": "https://pytorch.org/"
+    },
+    {
+        "name": "keras",
+        "category": "ML - Deep Learning",
+        "user_desc": "High-level, user-friendly API for building neural networks quickly (built on TensorFlow).",
+        "search_desc": "User-friendly model-building interface integrated with TensorFlow, offering modular layers, training utilities, and sensible defaults for rapid prototyping and experimentation.",
+        "keywords": 
+        [
+            "high-level-api",
+            "model-building",
+            "layers",
+            "prototyping"
+        ],
+        "link": "https://keras.io/"
+    },
+    {
+        "name": "jax",
+        "category": "ML - Deep Learning",
+        "user_desc": "Composable numerical computing with autodiff and JIT/XLA compilation for high-performance research.",
+        "search_desc": "Numerical computing framework providing composable autodiff, JIT compilation, and vectorized transformations (vmap, pmap) to build high-performance gradient-based experiments and research workflows.",
+        "keywords": 
+        [
+            "autodiff",
+            "jit",
+            "xla",
+            "vectorization"
+        ],
+        "link": "https://docs.jax.dev/en/latest/"
+    },
+    {
+        "name": "shap",
+        "category": "ML - Interpretability",
+        "user_desc": "Explain model predictions with per-feature SHAP attributions for debugging and reporting.",
+        "search_desc": "Model-agnostic attribution toolkit that computes SHAP values to quantify feature impact for individual predictions and global importance, enabling interpretable explanations for stakeholders.",
+        "keywords": 
+        [
+            "explainability",
+            "shap-values",
+            "feature-attribution",
+            "model-interpretation"
+        ],
+        "link": "https://shap.readthedocs.io/"
+    },
+    {
+        "name": "lime",
+        "category": "ML - Interpretability",
+        "user_desc": "Local surrogate explanation method for quick instance-level model explanations.",
+        "search_desc": "Local surrogate explanation technique that perturbs inputs to build interpretable proxies explaining single-instance predictions to debug model behavior and edge cases.",
+        "keywords": 
+        [
+            "local-explanations",
+            "surrogate-models",
+            "instance-interpretation",
+            "explainability"
+        ],
+        "link": "https://lime-ml.readthedocs.io/"
+    },
+    {
+        "name": "eli5",
+        "category": "ML - Interpretability",
+        "user_desc": "Developer utilities to inspect model weights and feature importances quickly.",
+        "search_desc": "Developer-facing tools for quick model inspection, weight/importance display, and diagnostic helpers to visualize and debug model internals during development.",
+        "keywords": 
+        [
+            "model-inspection",
+            "feature-importance",
+            "debugging-tools"
+        ],
+        "link": "https://eli5.readthedocs.io/"
+    },
+    {
+        "name": "mlflow",
+        "category": "ML - Ops",
+        "user_desc": "Tool to track experiments, log metrics, and manage model versions reproducibly.",
+        "search_desc": "Platform for capturing experiments, metrics, parameters, artifacts, and a registry to version and manage model lifecycle for collaborative and reproducible ML pipelines.",
+        "keywords": 
+        [
+            "experiment-tracking",
+            "model-registry",
+            "metrics",
+            "artifacts"
+        ],
+        "link": "https://mlflow.org/"
+    },
+    {
+        "name": "dvc",
+        "category": "ML - Ops",
+        "user_desc": "Version datasets and models alongside Git to reproduce experiments and share large files.",
+        "search_desc": "Data versioning and pipeline manager integrated with Git to track datasets, models, and reproducible steps enabling shareable ML experiments and CI integration.",
+        "keywords": 
+        [
+            "data-versioning",
+            "pipeline-management",
+            "git-integration",
+            "reproducibility"
+        ],
+        "link": "https://dvc.org/"
+    },
+    {
+        "name": "bentoml",
+        "category": "ML - Ops",
+        "user_desc": "Package trained models into REST/gRPC services for quick production serving.",
+        "search_desc": "Model packaging and serving framework that wraps trained models into REST/gRPC endpoints, containerizes inference services, and manages artifacts for production deployment.",
+        "keywords": 
+        [
+            "model-serving",
+            "packaging",
+            "rest-api",
+            "inference"
+        ],
+        "link": "https://docs.bentoml.com/en/latest/"
+    },
+    {
+        "name": "stable-baselines3",
+        "category": "ML - Reinforcement",
+        "user_desc": "Well-tested RL algorithms and consistent APIs for training and evaluating agents.",
+        "search_desc": "High-level reinforcement learning library providing standardized implementations of common algorithms, training utilities, and evaluation tools for benchmarking agents in simulators.",
+        "keywords": 
+        [
+            "reinforcement-learning",
+            "algorithms",
+            "agent-training",
+            "benchmarks"
+        ],
+        "link": "https://stable-baselines3.readthedocs.io/"
+    },
+    {
+        "name": "gymnasium",
+        "category": "ML - Reinforcement",
+        "user_desc": "Collection of RL environments (formerly Gym) for training and evaluating agents.",
+        "search_desc": "Environment collection offering control tasks, games, and benchmarks with standard APIs to train and compare RL agents under reproducible conditions.",
+        "keywords": 
+        [
+            "rl-environments",
+            "benchmarks",
+            "control-tasks",
+            "training-playground"
+        ],
+        "link": "https://gymnasium.farama.org/"
+    },
+    {
+        "name": "prophet",
+        "category": "ML - Time Series",
+        "user_desc": "User-friendly forecasting for trend, seasonality, and holiday effects for quick baselines.",
+        "search_desc": "Practical forecasting tool that decomposes time series into trend, seasonal components, and holiday effects with interpretable parameters for quick baselines and stakeholder communication.",
+        "keywords": 
+        [
+            "forecasting",
+            "trend",
+            "seasonality",
+            "holidays"
+        ],
+        "link": "https://facebook.github.io/prophet/"
+    },
+    {
+        "name": "statsmodels",
+        "category": "ML - Time Series",
+        "user_desc": "Classical statistical modeling: ARIMA, OLS, hypothesis tests and diagnostics.",
+        "search_desc": "Statistically grounded toolkit providing time-series models, econometric estimators, hypothesis tests, and diagnostics for interpretable inference and hypothesis-driven analysis.",
+        "keywords": 
+        [
+            "statistical-models",
+            "arima",
+            "ols",
+            "diagnostics"
+        ],
+        "link": "https://www.statsmodels.org/"
+    },
+    {
+        "name": "neuralprophet",
+        "category": "ML - Time Series",
+        "user_desc": "Hybrid forecasting that extends Prophet with neural components for nonlinear patterns.",
+        "search_desc": "Hybrid forecasting library combining trend/seasonality decomposition with neural modules to capture nonlinear patterns and flexible seasonality beyond classical assumptions.",
+        "keywords": 
+        [
+            "neural-forecasting",
+            "hybrid-models",
+            "seasonality",
+            "time-series"
+        ],
+        "link": "https://neuralprophet.com/"
+    },
+    {
+        "name": "darts",
+        "category": "ML - Time Series",
+        "user_desc": "Unified time-series framework wrapping classical and ML models under one API.",
+        "search_desc": "Model-agnostic toolkit for training, backtesting, ensemble building, and comparing diverse forecasting approaches under a consistent interface for experimentation and production.",
+        "keywords": 
+        [
+            "forecasting-framework",
+            "backtesting",
+            "ensembles",
+            "model-comparison"
+        ],
+        "link": "https://unit8co.github.io/darts/"
+    },
+    {
+        "name": "nltk",
+        "category": "NLP",
+        "user_desc": "Educational NLP toolkit for tokenization, stemming, corpora, and basic tasks.",
+        "search_desc": "Classic toolkit offering text preprocessing utilities, linguistic datasets, and simple models useful for learning NLP concepts and prototyping basic text-processing pipelines.",
+        "keywords": 
+        [
+            "tokenization",
+            "corpora",
+            "stemming",
+            "preprocessing"
+        ],
+        "link": "https://www.nltk.org/"
+    },
+    {
+        "name": "vaderSentiment",
+        "category": "NLP",
+        "user_desc": "Rule-based sentiment analyzer tuned for short, social-media-style text.",
+        "search_desc": "Lexicon and heuristic-based sentiment scoring system optimized for informal text, emojis, and social-media conventions to produce quick polarity scores on short messages.",
+        "keywords": 
+        [
+            "sentiment-analysis",
+            "lexicon-based",
+            "social-media",
+            "polarity"
+        ],
+        "link": "https://vadersentiment.readthedocs.io/"
+    },
+    {
+        "name": "spacy",
+        "category": "NLP",
+        "user_desc": "Production-ready NLP pipeline: fast tokenization, POS tagging, NER, and parsing.",
+        "search_desc": "Efficient, extensible NLP pipeline offering fast tokenization, pretrained models for NER/POS parsing, custom components, and high-throughput processing for production systems.",
+        "keywords": 
+        [
+            "tokenization",
+            "ner",
+            "pos-tagging",
+            "dependency-parsing"
+        ],
+        "link": "https://spacy.io/"
+    },
+    {
+        "name": "gensim",
+        "category": "NLP",
+        "user_desc": "Tools focused on topic modeling, Word2Vec, and document similarity.",
+        "search_desc": "Text modeling utilities for training and applying Word2Vec, LDA, and other vector-space algorithms to build topic models, similarity searches, and document clustering baselines.",
+        "keywords": 
+        [
+            "topic-modeling",
+            "word2vec",
+            "lda",
+            "document-similarity"
+        ],
+        "link": "https://radimrehurek.com/gensim/"
+    },
+    {
+        "name": "sentence-transformers",
+        "category": "NLP",
+        "user_desc": "Encodes sentences/documents into dense vector embeddings for semantic search and clustering.",
+        "search_desc": "Embedding library that turns sentences and documents into compact vectors optimized for semantic retrieval, nearest-neighbor search, clustering, reranking, and similarity tasks.",
+        "keywords": 
+        [
+            "sentence-embeddings",
+            "semantic-search",
+            "vector-similarity",
+            "clustering"
+        ],
+        "link": "https://www.sbert.net/"
+    },
+    {
+        "name": "setuptools",
+        "category": "Packaging",
+        "user_desc": "Classic packaging utilities to build Python distributions and prepare releases.",
+        "search_desc": "Traditional packaging toolset to define project metadata, build source/wheel distributions, and prepare packages for publishing to PyPI and other indexes.",
+        "keywords": 
+        [
+            "package-build",
+            "sdist",
+            "wheel",
+            "distribution"
+        ],
+        "link": "https://setuptools.pypa.io/"
+    },
+    {
+        "name": "poetry",
+        "category": "Packaging",
+        "user_desc": "Opinionated dependency manager and build tool with a declarative manifest and lockfile.",
+        "search_desc": "Project manager for dependency resolution, reproducible lockfile workflows, virtual environment management, and simplified publishing to package indexes.",
+        "keywords": 
+        [
+            "dependency-manager",
+            "lockfile",
+            "virtualenv",
+            "publish"
+        ],
+        "link": "https://python-poetry.org/"
+    },
+    {
+        "name": "pipenv",
+        "category": "Packaging",
+        "user_desc": "Combines pip and virtualenv into one workflow with Pipfile and a lockfile.",
+        "search_desc": "Integrated workflow managing virtual environments and pinned dependencies through a Pipfile and lockfile to simplify reproducible local development.",
+        "keywords": 
+        [
+            "pip-venv",
+            "pipfile",
+            "lockfile",
+            "reproducible-environment"
+        ],
+        "link": "https://pipenv.pypa.io/"
+    },
+    {
+        "name": "twine",
+        "category": "Packaging",
+        "user_desc": "CLI tool to securely upload Python packages to PyPI and other repositories.",
+        "search_desc": "Trusted uploader that handles authentication, metadata, and secure transfer when publishing wheels and source distributions to package indexes like PyPI.",
+        "keywords": 
+        [
+            "publish-package",
+            "pypi-upload",
+            "authentication"
+        ],
+        "link": "https://twine.readthedocs.io/"
+    },
+    {
+        "name": "pandas-profiling",
+        "category": "Data",
+        "user_desc": "Generates an automated EDA report for a DataFrame with summaries, correlations, and missing-value analysis.",
+        "search_desc": "Automated profiling utility that summarizes distributions, missing values, correlations, and anomalies into an interactive report to accelerate initial data exploration.",
+        "keywords": 
+        [
+            "eda-report",
+            "profiling",
+            "missing-values",
+            "summary-statistics"
+        ],
+        "link": "https://docs.profiling.ydata.ai/latest/"
+    },
+    {
+        "name": "modin",
+        "category": "Data",
+        "user_desc": "Drop-in parallel backend to speed up pandas operations across cores or clusters.",
+        "search_desc": "Parallel DataFrame backend that scales familiar pandas APIs for multi-core and distributed execution to accelerate ETL tasks without major code changes.",
+        "keywords": 
+        [
+            "scale-pandas",
+            "parallel-dataframe",
+            "distributed",
+            "speed-up"
+        ],
+        "link": "https://modin.readthedocs.io/"
+    },
+    {
+        "name": "pandera",
+        "category": "Data",
+        "user_desc": "Schema-validation layer for pandas DataFrames to enforce types, ranges, and custom invariants.",
+        "search_desc": "Declarative data validation library that defines and checks DataFrame schemas, column types, ranges, and custom invariants. Useful for pipeline data contracts, data quality checks, and preventing bad data from propagating in ETL workflows.",
+        "keywords": 
+        [
+            "data-validation",
+            "schema",
+            "dataframe-contracts",
+            "data-quality"
+        ],
+        "link": "https://pandera.readthedocs.io/"
+    },
+    {
+        "name": "cython",
+        "category": "Performance",
+        "user_desc": "Write Python-like code that compiles to C extensions for big speedups in hotspots.",
+        "search_desc": "Extension language and compiler that adds optional static typing and C bindings to compile Python modules into C extensions. Ideal for accelerating numeric loops, binding to C libraries, and squeezing performance from compute-heavy code.",
+        "keywords": 
+        [
+            "c-extension",
+            "static-typing",
+            "performance",
+            "speedup"
+        ],
+        "link": "https://cython.org/"
+    },
+    {
+        "name": "ray",
+        "category": "Performance",
+        "user_desc": "Distributed execution framework to parallelize Python workloads across cores and clusters.",
+        "search_desc": "Scalable execution system for parallel tasks, actors, and data processing with APIs for distributed training, hyperparameter search, and scalable pipelines. Useful for turning single-machine code into cluster-ready workloads with minimal changes.",
+        "keywords": 
+        [
+            "distributed-computing",
+            "parallelism",
+            "actors",
+            "scaling"
+        ],
+        "link": "https://docs.ray.io/"
+    },
+    {
+        "name": "line_profiler",
+        "category": "Profiling",
+        "user_desc": "Line-by-line profiler that reports per-line execution time to find hotspots.",
+        "search_desc": "Fine-grained profiler that measures execution time per source line within functions to pinpoint slow lines and guide micro-optimizations and refactoring priorities.",
+        "keywords": 
+        [
+            "line-profiling",
+            "hotspot-detection",
+            "micro-optimization"
+        ],
+        "link": "https://github.com/pyutils/line_profiler"
+    },
+    {
+        "name": "cProfile",
+        "category": "Profiling",
+        "user_desc": "Built-in deterministic profiler that records function call counts and timings.",
+        "search_desc": "Function-level deterministic profiler that aggregates call counts and execution times to identify slow functions and help locate performance bottlenecks in Python programs.",
+        "keywords": 
+        [
+            "function-profiling",
+            "call-counts",
+            "deterministic",
+            "performance-analysis"
+        ],
+        "link": "https://docs.python.org/3/library/profile.html"
+    },
+    {
+        "name": "pyinstrument",
+        "category": "Profiling",
+        "user_desc": "Sampling profiler producing readable flame graphs and call stacks for quick overviews.",
+        "search_desc": "Low-overhead sampling profiler focused on clear, human-readable call stacks and flame graphs to rapidly surface dominant execution paths and bottlenecks during development.",
+        "keywords": 
+        [
+            "sampling-profiler",
+            "flamegraph",
+            "call-stacks",
+            "performance-overview"
+        ],
+        "link": "https://github.com/joerick/pyinstrument"
+    },
+    {
+        "name": "bcrypt",
+        "category": "Security",
+        "user_desc": "Adaptive password-hashing (bcrypt) with salt and adjustable cost for secure credential storage.",
+        "search_desc": "Password-hashing utility providing salted, adaptive-cost hashes to generate slow-to-crack credentials appropriate for authentication systems and secure storage practices.",
+        "keywords": 
+        [
+            "password-hashing",
+            "bcrypt",
+            "salt",
+            "adaptive-cost"
+        ],
+        "link": "https://pypi.org/project/bcrypt/"
+    },
+    {
+        "name": "bandit",
+        "category": "Security",
+        "user_desc": "Static security scanner that flags common insecure Python patterns for CI and reviews.",
+        "search_desc": "Automated security linter that inspects Python code for insecure patterns (weak crypto, shell-injection risks, unsafe uses) to detect vulnerabilities early in CI and code review workflows.",
+        "keywords": 
+        [
+            "security-scanner",
+            "static-analysis",
+            "vulnerabilities",
+            "ci"
+        ],
+        "link": "https://bandit.readthedocs.io/"
+    },
+    {
+        "name": "simpy",
+        "category": "Simulation",
+        "user_desc": "Discrete-event simulation toolkit for modeling queues, processes, and resources over time.",
+        "search_desc": "Event-driven simulation framework for modeling process flows, queuing systems, scheduling, and resource contention to prototype system behavior and run experiments.",
+        "keywords": 
+        [
+            "discrete-event-simulation",
+            "queues",
+            "resource-modeling",
+            "scheduling"
+        ],
+        "link": "https://simpy.readthedocs.io/"
+    },
+    {
+        "name": "mesa",
+        "category": "Simulation",
+        "user_desc": "Agent-based modeling framework to simulate interacting agents and emergent behavior.",
+        "search_desc": "Platform for building, visualizing, and analyzing agent-based simulations with tools to define agent rules, run experiments, and observe macro outcomes arising from micro interactions.",
+        "keywords": 
+        [
+            "agent-based-modeling",
+            "simulation",
+            "emergent-behavior",
+            "visualization"
+        ],
+        "link": "https://mesa.readthedocs.io/"
+    },
+    {
+        "name": "turtle",
+        "category": "Study",
+        "user_desc": "Beginner-friendly drawing module that teaches loops, coordinates, and event-driven drawing.",
+        "search_desc": "Simple educational graphics API using turtle metaphors to teach programming basics with immediate visual feedback via drawing, animation, and interactive exercises.",
+        "keywords": 
+        [
+            "educational-graphics",
+            "turtle-graphics",
+            "visual-feedback",
+            "learn-to-code"
+        ],
+        "link": "https://docs.python.org/3/library/turtle.html"
+    },
+    {
+        "name": "jinja2",
+        "category": "Template",
+        "user_desc": "Fast, feature-rich templating engine for rendering HTML and text with control flow and filters.",
+        "search_desc": "Template renderer separating presentation from logic with expressions, loops, filters, macros, and inheritance, ideal for dynamic HTML, emails, and text generation in web frameworks.",
+        "keywords": 
+        [
+            "templating",
+            "html-render",
+            "filters",
+            "template-inheritance"
+        ],
+        "link": "https://jinja.palletsprojects.com/"
+    },
+    {
+        "name": "mako",
+        "category": "Template",
+        "user_desc": "Programmatic templating engine that supports inline Python expressions for advanced rendering.",
+        "search_desc": "Template system that embeds Python-like expressions for fine-grained programmatic control inside templates, suited to advanced dynamic rendering and content generation.",
+        "keywords": 
+        [
+            "programmatic-templating",
+            "inline-python",
+            "advanced-rendering"
+        ],
+        "link": "https://www.makotemplates.org/"
+    },
+    {
+        "name": "textual",
+        "category": "Terminal",
+        "user_desc": "Framework for building modern text UIs powered by Rich, with widgets and layouts.",
+        "search_desc": "Toolkit for creating interactive terminal applications with layout management, widgets, and Rich-driven styling, ideal for dashboards, forms, and multi-pane CLIs that run in the terminal.",
+        "keywords": 
+        [
+            "tui",
+            "terminal-ui",
+            "widgets",
+            "rich"
+        ],
+        "link": "https://textual.textualize.io/"
+    },
+    {
+        "name": "pytest",
+        "category": "Testing",
+        "user_desc": "Powerful testing framework with concise tests, fixtures, parametrization, and plugins.",
+        "search_desc": "Test runner offering readable test declarations, fixtures, parametrization, assertion introspection, and a rich plugin ecosystem for unit, integration, and CI-driven test automation.",
+        "keywords": 
+        [
+            "testing",
+            "fixtures",
+            "parametrization",
+            "plugins"
+        ],
+        "link": "https://docs.pytest.org/"
+    },
+    {
+        "name": "hypothesis",
+        "category": "Testing",
+        "user_desc": "Property-based testing that systematically generates inputs to expose edge-case bugs.",
+        "search_desc": "Test-generation framework that explores input spaces via composable strategies to uncover surprising edge cases and invariants, complementing example-based tests with systematic fuzzing.",
+        "keywords": 
+        [
+            "property-based-testing",
+            "fuzzing",
+            "edge-case-discovery",
+            "strategies"
+        ],
+        "link": "https://hypothesis.readthedocs.io/"
+    },
+    {
+        "name": "typing",
+        "category": "Typing",
+        "user_desc": "Standard typing primitives (Optional, List, TypedDict) to annotate Python code.",
+        "search_desc": "Standard-library module providing annotation primitives and typing constructs to express expected data shapes and interfaces, enabling tooling and static checkers to detect mismatches and improve code clarity.",
+        "keywords": 
+        [
+            "type-annotations",
+            "optional",
+            "typeddict",
+            "static-typing"
+        ],
+        "link": "https://docs.python.org/3/library/typing.html"
+    },
+    {
+        "name": "pydantic",
+        "category": "Typing",
+        "user_desc": "Runtime parsing and validation library that uses type hints for clear errors and conversions.",
+        "search_desc": "Runtime parsing and validation toolkit that enforces types, default handling, and conversions for request/response models and configs with helpful error diagnostics and serialization helpers.",
+        "keywords": 
+        [
+            "runtime-validation",
+            "parsing",
+            "models",
+            "config-management",
+            "data-validation"
+        ],
+        "link": "https://docs.pydantic.dev/latest/"
+    },
+    {
+        "name": "attrs",
+        "category": "Typing",
+        "user_desc": "Utility for defining concise classes with validators, converters, and less boilerplate.",
+        "search_desc": "Boilerplate-reduction library for concise data-class-like definitions with validators, converters, and comparison semantics to build robust typed containers beyond built-in dataclasses.",
+        "keywords": 
+        [
+            "data-classes",
+            "validators",
+            "converters",
+            "boilerplate-reduction"
+        ],
+        "link": "https://www.attrs.org/"
+    },
+    {
+        "name": "requests",
+        "category": "Utility",
+        "user_desc": "Human-friendly HTTP client for GET/POST, sessions, uploads, and JSON parsing.",
+        "search_desc": "Convenient synchronous HTTP library that simplifies REST calls, session handling, authentication, file uploads, and response parsing for web scraping, API clients, and automation scripts.",
+        "keywords": 
+        [
+            "http-client",
+            "rest",
+            "json",
+            "sessions",
+            "fetch-api",
+            "send-http-request"
+        ],
+        "link": "https://requests.readthedocs.io/en/latest/"
+    },
+    {
+        "name": "pathlib",
+        "category": "Utility",
+        "user_desc": "Object-oriented path utilities for portable file path manipulation.",
+        "search_desc": "Path abstraction providing methods for joining, reading, writing, and querying filesystem paths in a cross-platform, safer API than raw string path manipulation.",
+        "keywords": 
+        [
+            "path-object",
+            "filesystem",
+            "cross-platform",
+            "path-manipulation",
+            "temporary-file"
+        ],
+        "link": "https://docs.python.org/3/library/pathlib.html"
+    },
+    {
+        "name": "click",
+        "category": "Utility",
+        "user_desc": "Decorator-based library for building CLI tools with clean option parsing.",
+        "search_desc": "CLI builder offering decorators, command groups, option parsing, and help generation to convert Python functions into polished command-line tools with validation and subcommands.",
+        "keywords": 
+        [
+            "cli-builder",
+            "decorators",
+            "options",
+            "subcommands"
+        ],
+        "link": "https://click.palletsprojects.com/"
+    },
+    {
+        "name": "typer",
+        "category": "Utility",
+        "user_desc": "Typed CLI framework (built on Click) using annotations to auto-generate parsing and help.",
+        "search_desc": "Type-driven CLI generator leveraging Python annotations to create clear, typed command-line interfaces with minimal boilerplate and automatic documentation.",
+        "keywords": 
+        [
+            "typed-cli",
+            "type-hints",
+            "auto-documentation",
+            "click-based"
+        ],
+        "link": "https://typer.tiangolo.com/"
+    },
+    {
+        "name": "seaborn",
+        "category": "Vizualisation",
+        "user_desc": "High-level plotting layer on matplotlib for attractive statistical visuals with minimal code.",
+        "search_desc": "Statistical visualization library that simplifies plotting distributions, categorical relationships, regression fits, and summary plots with sensible defaults for exploratory data analysis.",
+        "keywords": 
+        [
+            "statistical-visualization",
+            "distributions",
+            "categorical-plots",
+            "data-visualization",
+            "eda"
+        ],
+        "link": "https://seaborn.pydata.org/"
+    },
+    {
+        "name": "plotly",
+        "category": "Vizualisation",
+        "user_desc": "Interactive charting library for zoomable, embeddable charts and dashboards.",
+        "search_desc": "Client-side interactive visualization library enabling hover tooltips, zooming, and web-embeddable visuals for dashboards and notebooks with export and rich interaction features.",
+        "keywords": 
+        [
+            "interactive-charts",
+            "dashboards",
+            "tooltips",
+            "data-visualization",
+            "web-embed"
+        ],
+        "link": "https://plotly.com/python/"
+    },
+    {
+        "name": "bokeh",
+        "category": "Vizualisation",
+        "user_desc": "Build interactive, web-ready visualizations and dashboards with streaming support.",
+        "search_desc": "Server-capable visualization toolkit for building interactive plots, dashboards, and streaming visuals with client-side tools for exploration and embedding.",
+        "keywords": 
+        [
+            "interactive-visualization",
+            "server-backed",
+            "streaming",
+            "dashboards"
+        ],
+        "link": "https://docs.bokeh.org/"
+    },
+    {
+        "name": "altair",
+        "category": "Vizualisation",
+        "user_desc": "Declarative visualization library that produces Vega-Lite charts from concise specs.",
+        "search_desc": "Grammar-of-graphics library for concise, declarative chart specifications (Vega-Lite) ideal for faceting, layering, and reproducible exploratory analysis.",
+        "keywords": 
+        [
+            "declarative-plots",
+            "vega-lite",
+            "faceting",
+            "reproducible-charts"
+        ],
+        "link": "https://altair-viz.github.io/"
+    },
+    {
+        "name": "flask",
+        "category": "Web",
+        "user_desc": "Minimal microframework for building APIs and web apps with minimal ceremony.",
+        "search_desc": "Lightweight web framework offering routing, request handling, templating, and extension hooks to prototype REST endpoints and small web applications quickly.",
+        "keywords": 
+        [
+            "microframework",
+            "routing",
+            "rest-api",
+            "templating",
+            "make-website",
+            "http-server",
+            "websocket"
+        ],
+        "link": "https://flask.palletsprojects.com/"
+    },
+    {
+        "name": "beautifulsoup4",
+        "category": "Web Scraping / Automation",
+        "user_desc": "HTML/XML parser to extract structured data from messy markup and pages.",
+        "search_desc": "HTML and XML parsing helper that navigates and cleans messy documents to extract tables, lists, and structured data for web scraping and downstream processing.",
+        "keywords": 
+        [
+            "html-parsing",
+            "web-scraping",
+            "xml",
+            "messy-html"
+        ],
+        "link": "https://beautiful-soup-4.readthedocs.io/"
+    },
+    {
+        "name": "Scrapy",
+        "category": "Web Scraping / Automation",
+        "user_desc": "High-level scraping framework to crawl sites and extract structured data at scale.",
+        "search_desc": "Fast, high-level Python framework for web scraping and crawling that enables automatic extraction of structured data, multi-page navigation, and pipeline integration for storing and cleaning results.",
+        "keywords": 
+        [
+            "web-scraping",
+            "crawling",
+            "spiders",
+            "pipelines"
+        ],
+        "link": "https://docs.scrapy.org/en/latest/"
+    },
+    {
+        "name": "django",
+        "category": "Website",
+        "user_desc": "Batteries-included full-stack website framework with ORM, admin UI, and auth.",
+        "search_desc": "Opinionated full-stack framework with models, ORM, templating, admin interface, and authentication primitives to rapidly develop robust, scalable website applications following conventions.",
+        "keywords": 
+        [
+            "full-stack",
+            "orm",
+            "admin-interface",
+            "admin-page",
+            "authentication",
+            "make-website"
+        ],
+        "link": "https://docs.djangoproject.com/"
+    },
+    {
+        "name": "fastapi",
+        "category": "Website",
+        "user_desc": "Async-first API framework with type-hinted endpoints and automatic OpenAPI docs.",
+        "search_desc": "High-performance async API framework that leverages type annotations for request validation, automatic OpenAPI schema generation, and easy production deployment for REST services.",
+        "keywords": 
+        [
+            "async-api",
+            "openapi",
+            "typed-endpoints",
+            "high-performance",
+            "make-website",
+            "http-server"
+        ],
+        "link": "https://fastapi.tiangolo.com/"
+    },
+    {
+        "name": "aiohttp",
+        "category": "Website",
+        "user_desc": "Asynchronous HTTP client and server primitives for non-blocking networking.",
+        "search_desc": "Async-capable library offering client and server APIs for non-blocking HTTP interactions, streaming responses, and high-concurrency network tasks.",
+        "keywords": 
+        [
+            "async-http",
+            "non-blocking",
+            "streaming",
+            "client-server",
+            "http-server",
+            "websocket"
+        ],
+        "link": "https://docs.aiohttp.org/"
+    },
+    {
+        "name": "httpx",
+        "category": "Website",
+        "user_desc": "Modern HTTP client with sync and async APIs, HTTP/2, and connection pooling.",
+        "search_desc": "Feature-rich HTTP client supporting synchronous and asynchronous usage, connection pooling, HTTP/2, streaming, and robust features for building resilient API clients and automation.",
+        "keywords": 
+        [
+            "http-client",
+            "sync-async",
+            "http2",
+            "connection-pooling",
+            "send-http-request"
+        ],
+        "link": "https://www.python-httpx.org/"
+    },
+    {
+        "name": "pillow",
+        "category": "Vizualisation",
+        "user_desc": "Image-processing library (PIL fork) for opening, manipulating, and saving images.",
+        "search_desc": "Simple image toolkit for resizing, compositing, format conversion, and pixel-level manipulation to support image I/O and preprocessing in website and ML pipelines.",
+        "keywords": 
+        [
+            "image-processing",
+            "resize",
+            "format-conversion",
+            "pil"
+        ],
+        "link": "https://pillow.readthedocs.io/"
+    },
+    {
+        "name": "sqlalchemy",
+        "category": "Website",
+        "user_desc": "Powerful SQL toolkit and ORM for defining schemas, queries, and DB interactions.",
+        "search_desc": "Database toolkit offering SQL expression language, ORM mapping, connection and transaction management, and multi-backend compatibility for robust database interactions in applications.",
+        "keywords": 
+        [
+            "orm",
+            "sql-expressions",
+            "transactions",
+            "schema-mapping",
+            "database"
+        ],
+        "link": "https://docs.sqlalchemy.org/"
+    },
+    {
+        "name": "openpyxl",
+        "category": "Data",
+        "user_desc": "Read and write Excel .xlsx files for spreadsheets and automation scripts.",
+        "search_desc": "Pure-Python library for reading, writing, and modifying Excel .xlsx files, commonly used for spreadsheet automation, templating, data export/import, and small-scale Excel workflows.",
+        "keywords": 
+        [
+            "excel",
+            "xlsx",
+            "spreadsheets",
+            "automation"
+        ],
+        "link": "https://openpyxl.readthedocs.io/"
+    },
+    {
+        "name": "xlrd",
+        "category": "Data",
+        "user_desc": "Reader for older Excel .xls files, useful for legacy spreadsheet formats.",
+        "search_desc": "Library focused on reading legacy Excel .xls (BIFF) files and extracting sheet, row, and cell data. Often used when working with older exports or archived spreadsheets.",
+        "keywords": 
+        [
+            "excel-xls",
+            "legacy",
+            "xls-reader"
+        ],
+        "link": "https://xlrd.readthedocs.io/"
+    },
+    {
+        "name": "pyautogui",
+        "category": "GUI",
+        "user_desc": "Automate mouse and keyboard interactions and take screenshots for desktop scripts.",
+        "search_desc": "Cross-platform GUI automation library to programmatically control mouse movements, clicks, keyboard presses, and screenshot-based UI interactions. Useful for simple automation, testing, and desktop scripting.",
+        "keywords": 
+        [
+            "gui-automation",
+            "mouse",
+            "keyboard",
+            "screenshots"
+        ],
+        "link": "https://pyautogui.readthedocs.io/"
+    },
+    {
+        "name": "pyperclip",
+        "category": "Utility",
+        "user_desc": "Tiny cross-platform helper to copy to and paste from the system clipboard.",
+        "search_desc": "Minimal clipboard utility for copying text to and reading text from the system clipboard, commonly used in small scripts and CLI tools for quick copy/paste operations.",
+        "keywords": 
+        [
+            "clipboard",
+            "copy",
+            "paste",
+            "cross-platform"
+        ],
+        "link": "https://pypi.org/project/pyperclip/"
+    },
+    {
+        "name": "selenium",
+        "category": "Website",
+        "user_desc": "Drive real browsers for testing or scraping JavaScript-heavy pages.",
+        "search_desc": "Browser automation framework that drives browsers (Chrome, Firefox, etc.) for testing, scraping, and interactive automation. Handles dynamic content, JavaScript execution, and complex navigation flows.",
+        "keywords": 
+        [
+            "browser-automation",
+            "Websitedriver",
+            "e2e-testing",
+            "scraping"
+        ],
+        "link": "https://www.selenium.dev/"
+    },
+    {
+        "name": "tqdm",
+        "category": "Terminal",
+        "user_desc": "Lightweight progress bars for loops and iterables, tiny UX upgrade for scripts.",
+        "search_desc": "Fast, extensible progress bar utility for Python loops, iterables, and CLI scripts used to provide visual progress feedback in long-running tasks or batch processing.",
+        "keywords": 
+        [
+            "progress-bar",
+            "cli",
+            "iterables",
+            "visual-feedback"
+        ],
+        "link": "https://tqdm.github.io/"
+    },
+    {
+        "name": "python-docx",
+        "category": "Utility",
+        "user_desc": "Create and modify Microsoft Word (.docx) documents programmatically.",
+        "search_desc": "Library for creating, reading, and modifying Microsoft Word .docx files programmatically. Useful for automated report generation, templating, and office workflows.",
+        "keywords": 
+        [
+            "docx",
+            "word",
+            "templating",
+            "report-generation"
+        ],
+        "link": "https://python-docx.readthedocs.io/"
+    },
+    {
+        "name": "pyinstaller",
+        "category": "Packaging",
+        "user_desc": "Bundle Python scripts into standalone executables for Windows/Mac/Linux.",
+        "search_desc": "Tool that packages Python applications into standalone executables by bundling the interpreter and dependencies, making it easier to distribute scripts to users without Python installed.",
+        "keywords": 
+        [
+            "packaging",
+            "standalone-exe",
+            "bundle",
+            "distribution"
+        ],
+        "link": "https://pyinstaller.org/"
+    },
+    {
+        "name": "watchdog",
+        "category": "Utility",
+        "user_desc": "Monitor filesystem events (create/modify/delete) and react in scripts.",
+        "search_desc": "API for watching filesystem events (create/modify/delete) using observers and handlers, commonly used in development tooling, auto-reloading, and automation workflows that respond to file changes.",
+        "keywords": 
+        [
+            "filesystem-watch",
+            "file-events",
+            "auto-reload",
+            "inotify"
+        ],
+        "link": "https://pypi.org/project/watchdog/"
+    },
+    {
+        "name": "psutil",
+        "category": "Performance",
+        "user_desc": "Retrieve CPU, memory, disk, network, and process information from Python.",
+        "search_desc": "Cross-platform library to retrieve system-level metrics (CPU, memory, disk, network) and process information. Ideal for monitoring, diagnostics, and lightweight system tools.",
+        "keywords": 
+        [
+            "system-monitoring",
+            "cpu",
+            "memory",
+            "processes"
+        ],
+        "link": "https://psutil.readthedocs.io/"
+    },
+    {
+        "name": "requests-html",
+        "category": "Website",
+        "user_desc": "Simpler HTML requests with optional light JavaScript rendering (lighter than Selenium).",
+        "search_desc": "Wrapper around requests and PyQuery offering HTML parsing and optional JS rendering via a headless browser; good for simpler scraping tasks that need light rendering without full browser automation.",
+        "keywords": 
+        [
+            "html-requests",
+            "light-rendering",
+            "scraping",
+            "pyquery"
+        ],
+        "link": "https://requests-html.kennethreitz.org/"
+    },
+    {
+        "name": "os",
+        "category": "Utility",
+        "user_desc": "Standard OS interface for files, dirs, environment variables, and process control.",
+        "search_desc": "Standard-library module exposing a portable interface to operating system features such as file and directory manipulation, environment variables, and process control, commonly used in scripts and automation.",
+        "keywords": 
+        [
+            "filesystem",
+            "environment",
+            "process-control",
+            "os-interface"
+        ],
+        "link": "https://docs.python.org/3/library/os.html"
+    },
+    {
+        "name": "json",
+        "category": "Utility",
+        "user_desc": "Encode/decode JSON, the go-to format for configs and web APIs.",
+        "search_desc": "Standard-library module for parsing and emitting JSON; used for configuration, data interchange with web APIs, and serializing simple Python objects to JSON strings.",
+        "keywords": 
+        [
+            "json",
+            "serialize",
+            "parse",
+            "api",
+            "config"
+        ],
+        "link": "https://docs.python.org/3/library/json.html"
+    },
+    {
+        "name": "subprocess",
+        "category": "Terminal",
+        "user_desc": "Spawn external processes and shell commands from Python safely.",
+        "search_desc": "Standard-library module to spawn new processes, connect to their input/output/error pipes, and obtain return codes. Useful for automation, running CLI tools, and orchestrating external programs.",
+        "keywords": 
+        [
+            "process-spawning",
+            "shell",
+            "execute",
+            "pipes"
+        ],
+        "link": "https://docs.python.org/3/library/subprocess.html"
+    },
+    {
+        "name": "asyncio",
+        "category": "Utility",
+        "user_desc": "Standard async I/O framework using `async`/`await`, event loops, and coroutines.",
+        "search_desc": "Standard-library foundation for asynchronous I/O, event loops, coroutines, and tasks. Essential for building concurrent networked applications, async web clients/servers, and performant I/O-bound programs.",
+        "keywords": 
+        [
+            "async",
+            "event-loop",
+            "coroutines",
+            "non-blocking",
+            "websocket"
+        ],
+        "link": "https://docs.python.org/3/library/asyncio.html"
+    },
+    {
+        "name": "logging",
+        "category": "Utility",
+        "user_desc": "Structured logging framework for apps (handlers, formatters, and levels).",
+        "search_desc": "Standard logging facility for emitting structured log messages with support for handlers, formatters, and logging levels, suitable for development and production logging setups.",
+        "keywords": 
+        [
+            "logging",
+            "handlers",
+            "formatters",
+            "log-levels"
+        ],
+        "link": "https://docs.python.org/3/library/logging.html"
+    },
+    {
+        "name": "python-telegram-bot",
+        "category": "Networking & Bots",
+        "user_desc": "A simple yet powerful library to build Telegram bots in Python, handle messages, commands, and inline features with ease.",
+        "search_desc": "Full-featured Telegram Bot API wrapper for Python enabling bot creation, message handling, inline keyboards, file uploads, and async support; ideal for automating Telegram interactions and building chatbots.",
+        "keywords": 
+        [
+            "telegram",
+            "bot",
+            "chatbot",
+            "automation",
+            "telegram-api",
+            "message-handler",
+            "python-bot"
+        ],
+        "link": "https://docs.python-telegram-bot.org/"
+    },
+    {
+        "name": "discord.py",
+        "category": "Networking & Bots",
+        "user_desc": "A popular library for making Discord bots in Python, perfect for automating servers, managing chats, and creating interactive commands.",
+        "search_desc": "Comprehensive wrapper for Discord's API supporting commands, events, embeds, reactions, and async operations; enables creation of full-featured Discord bots for moderation, entertainment, or automation.",
+        "keywords": 
+        [
+            "discord",
+            "discord-bot",
+            "chatbot",
+            "automation",
+            "discord-api",
+            "moderation",
+            "commands"
+        ],
+        "link": "https://discordpy.readthedocs.io/"
+    },
+    {
+        "name": "slack_bolt",
+        "category": "Networking & Bots",
+        "user_desc": "An official framework for building Slack apps and bots using Python, making it easy to handle messages, events, and workflows.",
+        "search_desc": "Official Slack SDK for Python supporting message events, interactive commands, modals, and API integrations; ideal for building Slack automation, custom notifications, and workplace bots.",
+        "keywords": 
+        [
+            "slack",
+            "slack-bot",
+            "slack-api",
+            "chatbot",
+            "automation",
+            "workplace-bot",
+            "notifications"
+        ],
+        "link": "https://slack.dev/bolt-python/concepts"
+    },
+    {
+        "name": "aiogram",
+        "category": "Networking & Bots",
+        "user_desc": "Modern and fast asynchronous Telegram Bot API framework built on asyncio, perfect for scalable Telegram bots.",
+        "search_desc": "Async-first Telegram bot framework leveraging Python's asyncio for high performance; supports commands, inline queries, middlewares, FSM, and webhook mode for efficient bot development.",
+        "keywords": 
+        [
+            "telegram",
+            "bot",
+            "asyncio",
+            "chatbot",
+            "telegram-api",
+            "automation",
+            "aiogram"
+        ],
+        "link": "https://docs.aiogram.dev/"
+    },
+    {
+        "name": "pyrogram",
+        "category": "Networking & Bots",
+        "user_desc": "Elegant, modern, and fast Telegram API framework that supports both userbots and bots with MTProto access.",
+        "search_desc": "High-level Telegram API client offering userbot and bot functionality with MTProto support; enables automation, file transfers, and custom Telegram client features with async support.",
+        "keywords": 
+        [
+            "telegram",
+            "userbot",
+            "bot",
+            "mtproto",
+            "chatbot",
+            "async",
+            "telegram-api"
+        ],
+        "link": "https://docs.pyrogram.org/"
+    },
+    {
+        "name": "nextcord",
+        "category": "Networking & Bots",
+        "user_desc": "A maintained fork of discord.py with slash commands, threads, and newer Discord API features.",
+        "search_desc": "Modernized fork of discord.py supporting slash commands, threads, buttons, modals, and interactions; ideal for building up-to-date Discord bots using Python’s async API.",
+        "keywords": 
+        [
+            "discord",
+            "bot",
+            "discord-api",
+            "slash-commands",
+            "nextcord",
+            "asyncio",
+            "interactions"
+        ],
+        "link": "https://docs.nextcord.dev/en/stable/"
+    },
+    {
+        "name": "tweepy",
+        "category": "Networking & Bots",
+        "user_desc": "The go-to library for interacting with the Twitter (X) API using Python, great for automating tweets and fetching data.",
+        "search_desc": "Wrapper for Twitter API enabling automation of posting, reading timelines, and managing followers; supports OAuth, streaming, and modern Twitter API v2 endpoints for bot or data tasks.",
+        "keywords": 
+        [
+            "twitter",
+            "x-api",
+            "automation",
+            "social-media",
+            "bot",
+            "tweets",
+            "data"
+        ],
+        "link": "https://www.tweepy.org/"
+    },
+    {
+        "name": "sys",
+        "category": "Standard Library",
+        "user_desc": "Interpreter-level utilities: argv, exit codes, stdin/stdout, and path tweaks.",
+        "search_desc": "Standard-library module providing interpreter interaction utilities such as command-line arguments (argv), exit codes, standard streams, and module path manipulation for scripting and runtime control.",
+        "keywords": 
+        [
+            "argv",
+            "exit",
+            "stdin",
+            "stdout",
+            "sys-path"
+        ],
+        "link": "https://docs.python.org/3/library/sys.html"
+    },
+    {
+        "name": "math",
+        "category": "Math & Statistics",
+        "user_desc": "Fast C-backed math functions (sqrt, sin, cos, log) and numeric constants.",
+        "search_desc": "Lightweight math utilities implemented in C providing arithmetic, trigonometry, logarithms, and constants (pi, e) for algorithms and numeric scripting.",
+        "keywords": 
+        [
+            "sqrt",
+            "trigonometry",
+            "log",
+            "constants"
+        ],
+        "link": "https://docs.python.org/3/library/math.html"
+    },
+    {
+        "name": "random",
+        "category": "Math & Statistics",
+        "user_desc": "Pseudo-random numbers, choices, shuffling, and sampling for tests and demos.",
+        "search_desc": "Pseudo-random number utilities for generating integers and floats, sampling collections, shuffling sequences, and reproducible experiments via seeding.",
+        "keywords": 
+        [
+            "random",
+            "seed",
+            "choice",
+            "shuffle",
+            "sampling"
+        ],
+        "link": "https://docs.python.org/3/library/random.html"
+    },
+    {
+        "name": "statistics",
+        "category": "Math & Statistics",
+        "user_desc": "Simple descriptive statistics (mean, median, stdev) for quick summaries.",
+        "search_desc": "Convenient functions for descriptive statistics, mean, median, variance, standard deviation, and quantiles, useful for quick analyses and prototyping without heavier libraries.",
+        "keywords": 
+        [
+            "mean",
+            "median",
+            "stdev",
+            "variance"
+        ],
+        "link": "https://docs.python.org/3/library/statistics.html"
+    },
+    {
+        "name": "fractions",
+        "category": "Math & Statistics",
+        "user_desc": "Exact rational arithmetic using Fraction objects instead of floats.",
+        "search_desc": "Utilities for exact rational arithmetic using Fraction objects to avoid floating-point rounding errors and perform precise ratio computations and conversions.",
+        "keywords": 
+        [
+            "fraction",
+            "rational-arithmetic",
+            "exact-math",
+            "ratios"
+        ],
+        "link": "https://docs.python.org/3/library/fractions.html"
+    },
+    {
+        "name": "decimal",
+        "category": "Math & Statistics",
+        "user_desc": "Decimal fixed-point arithmetic for accurate finance and high-precision math.",
+        "search_desc": "High-precision decimal arithmetic with configurable contexts and rounding modes for financial calculations and cases where floating-point errors are unacceptable.",
+        "keywords": 
+        [
+            "decimal",
+            "precision",
+            "rounding",
+            "financial-math"
+        ],
+        "link": "https://docs.python.org/3/library/decimal.html"
+    },
+    {
+        "name": "itertools",
+        "category": "Data Structures",
+        "user_desc": "Composable iterator utilities (chain, permutations, combinations) for elegant loops.",
+        "search_desc": "Collection of efficient iterator building blocks, chain, cycle, permutations, combinations, islice, groupby, for composing memory-friendly pipelines and complex iteration patterns.",
+        "keywords": 
+        [
+            "iterators",
+            "chain",
+            "permutations",
+            "combinations",
+            "islice"
+        ],
+        "link": "https://docs.python.org/3/library/itertools.html"
+    },
+    {
+        "name": "functools",
+        "category": "Standard Library",
+        "user_desc": "Higher-order function utilities like lru_cache, partial, and wraps for composition and optimization.",
+        "search_desc": "Function-tooling utilities, lru_cache, partial, wraps, total_ordering, to support caching, argument partial application, and decorator helpers for building performant, composable callables.",
+        "keywords": 
+        [
+            "lru_cache",
+            "partial",
+            "decorator-helpers",
+            "wraps"
+        ],
+        "link": "https://docs.python.org/3/library/functools.html"
+    },
+    {
+        "name": "operator",
+        "category": "Standard Library",
+        "user_desc": "Function versions of operators (itemgetter, attrgetter), handy for sorting and functional code.",
+        "search_desc": "Small helpers that expose operators and common access patterns as callables (itemgetter, attrgetter, methodcaller), enabling concise functional-style code and sorting helpers.",
+        "keywords": 
+        [
+            "itemgetter",
+            "attrgetter",
+            "methodcaller",
+            "operator-functions"
+        ],
+        "link": "https://docs.python.org/3/library/operator.html"
+    },
+    {
+        "name": "collections",
+        "category": "Data Structures",
+        "user_desc": "Extended containers: Counter, defaultdict, deque, namedtuple, essential utilities.",
+        "search_desc": "High-level container types (Counter, defaultdict, deque, namedtuple, OrderedDict) that simplify counting, buffering, and structured records beyond built-in lists and dicts.",
+        "keywords": 
+        [
+            "counter",
+            "defaultdict",
+            "deque",
+            "namedtuple",
+            "containers"
+        ],
+        "link": "https://docs.python.org/3/library/collections.html"
+    },
+    {
+        "name": "heapq",
+        "category": "Data Structures",
+        "user_desc": "Heap (priority queue) operations for efficient min/max and top-k retrievals.",
+        "search_desc": "Binary-heap utilities (heappush, heappop, nlargest, nsmallest) for efficient priority queues and top-k extraction without external dependencies.",
+        "keywords": 
+        [
+            "priority-queue",
+            "heap",
+            "heappush",
+            "nlargest"
+        ],
+        "link": "https://docs.python.org/3/library/heapq.html"
+    },
+    {
+        "name": "bisect",
+        "category": "Data Structures",
+        "user_desc": "Binary-search helpers to insert/locate items in sorted lists efficiently.",
+        "search_desc": "Utilities for binary-search operations on sorted lists (bisect_left, bisect_right, insort) to maintain and query ordered sequences with log-time complexity.",
+        "keywords": 
+        [
+            "binary-search",
+            "insort",
+            "bisect_left",
+            "sorted-list"
+        ],
+        "link": "https://docs.python.org/3/library/bisect.html"
+    },
+    {
+        "name": "hashlib",
+        "category": "Security & Cryptography",
+        "user_desc": "Standard hash functions (sha256, md5, blake2) for checksums and digests.",
+        "search_desc": "Standard cryptographic hash functions (sha256, md5, blake2) for checksums, digests, and simple fingerprinting used in caching, integrity checks, and basic cryptographic workflows.",
+        "keywords": 
+        [
+            "sha256",
+            "md5",
+            "hash",
+            "digest",
+            "checksum"
+        ],
+        "link": "https://docs.python.org/3/library/hashlib.html"
+    },
+    {
+        "name": "secrets",
+        "category": "Security & Cryptography",
+        "user_desc": "Generate secure random tokens and strings for passwords, API keys, and auth flows.",
+        "search_desc": "Security-focused random utilities (token_urlsafe, randbelow) for generating cryptographic tokens and credentials with safe defaults suitable for authentication and key generation.",
+        "keywords": 
+        [
+            "secure-random",
+            "token",
+            "api-key",
+            "password"
+        ],
+        "link": "https://docs.python.org/3/library/secrets.html"
+    },
+    {
+        "name": "base64",
+        "category": "Utilities",
+        "user_desc": "Encode and decode binary data into ASCII-safe base64 text for transport.",
+        "search_desc": "Encoding utilities (b64encode, b64decode, urlsafe_b64encode) that convert binary data to ASCII-safe text and back, useful for attachments, tokens, and simple serialization.",
+        "keywords": 
+        [
+            "base64",
+            "b64encode",
+            "b64decode",
+            "urlsafe"
+        ],
+        "link": "https://docs.python.org/3/library/base64.html"
+    },
+    {
+        "name": "tempfile",
+        "category": "I/O & Files",
+        "user_desc": "Create secure temporary files and directories for tests and scripts.",
+        "search_desc": "Helpers (NamedTemporaryFile, TemporaryDirectory, mkstemp) to create and manage temporary filesystem resources securely during execution and tests.",
+        "keywords": 
+        [
+            "temp-file",
+            "temporary-directory",
+            "testing",
+            "mkstemp"
+        ],
+        "link": "https://docs.python.org/3/library/tempfile.html"
+    },
+    {
+        "name": "shutil",
+        "category": "I/O & Files",
+        "user_desc": "High-level file utilities: copy, move, remove trees, and make archives.",
+        "search_desc": "Convenience utilities for copying files and directories, removing trees, moving files, and creating archives, useful for deployment scripts and file management tasks.",
+        "keywords": 
+        [
+            "copy-files",
+            "rmtree",
+            "move",
+            "archive"
+        ],
+        "link": "https://docs.python.org/3/library/shutil.html"
+    },
+    {
+        "name": "csv",
+        "category": "I/O & Files",
+        "user_desc": "Read and write CSV files with dialects and streaming support.",
+        "search_desc": "Lightweight CSV parsing and writing utilities (DictReader, DictWriter, reader, writer) with options for dialects and quoting to stream rows to/from files and pipes.",
+        "keywords": 
+        [
+            "csv",
+            "reader",
+            "dictreader",
+            "writer"
+        ],
+        "link": "https://docs.python.org/3/library/csv.html"
+    },
+    {
+        "name": "sqlite3",
+        "category": "Data Processing",
+        "user_desc": "File-based SQL database included with Python for quick prototyping and local apps.",
+        "search_desc": "Embedded SQL database backend accessible from Python for simple apps, prototyping, and local storage without extra services, supports connections, cursors, and row factories.",
+        "keywords": 
+        [
+            "sqlite",
+            "sql",
+            "local-db",
+            "embedded-database"
+        ],
+        "link": "https://docs.python.org/3/library/sqlite3.html"
+    },
+    {
+        "name": "argparse",
+        "category": "Utilities",
+        "user_desc": "Command-line argument parsing for scripts with flags, subcommands, and help text.",
+        "search_desc": "Library for building CLI parsers (ArgumentParser, add_argument, subparsers) to accept options and flags, validate input, and auto-generate help output for scripts and tools.",
+        "keywords": 
+        [
+            "cli",
+            "argument-parsing",
+            "ArgumentParser",
+            "flags"
+        ],
+        "link": "https://docs.python.org/3/library/argparse.html"
+    },
+    {
+        "name": "configparser",
+        "category": "Utilities",
+        "user_desc": "Read and write INI-style config files for simple application settings.",
+        "search_desc": "INI file parser (ConfigParser) that handles sections, defaults, and simple typed retrievals, useful for human-editable configuration and defaults management.",
+        "keywords": 
+        [
+            "ini",
+            "config",
+            "ConfigParser",
+            "settings"
+        ],
+        "link": "https://docs.python.org/3/library/configparser.html"
+    },
+    {
+        "name": "threading",
+        "category": "Concurrency & Parallelism",
+        "user_desc": "Lightweight threading primitives for I/O-bound concurrency and background tasks.",
+        "search_desc": "High-level threading primitives (Thread, Lock, Event) for running concurrent I/O-bound tasks and background workers within a single process using threads.",
+        "keywords": 
+        [
+            "thread",
+            "lock",
+            "concurrency",
+            "background-thread"
+        ],
+        "link": "https://docs.python.org/3/library/threading.html"
+    },
+    {
+        "name": "multiprocessing",
+        "category": "Concurrency & Parallelism",
+        "user_desc": "Process-based parallelism to run Python across CPU cores for CPU-bound work.",
+        "search_desc": "Process-based parallelism tools (Process, Pool, Queue, shared memory) to parallelize CPU-bound tasks by spawning subprocesses with isolated memory spaces.",
+        "keywords": 
+        [
+            "process",
+            "pool",
+            "parallel",
+            "cpu-bound"
+        ],
+        "link": "https://docs.python.org/3/library/multiprocessing.html"
+    },
+    {
+        "name": "concurrent.futures",
+        "category": "Concurrency & Parallelism",
+        "user_desc": "Executor-based API for running callables with thread or process pools.",
+        "search_desc": "High-level executor interface (ThreadPoolExecutor, ProcessPoolExecutor) to submit callables and manage futures, simplifying asynchronous execution across threads or processes.",
+        "keywords": 
+        [
+            "executor",
+            "threadpoolexecutor",
+            "processpoolexecutor",
+            "futures"
+        ],
+        "link": "https://docs.python.org/3/library/concurrent.futures.html"
+    },
+    {
+        "name": "socket",
+        "category": "Networking & HTTP",
+        "user_desc": "Low-level TCP/UDP socket primitives for learning networking and building simple servers.",
+        "search_desc": "Raw networking primitives (TCP, UDP, bind, listen, accept, send, recv) for building sockets, simple servers/clients, and learning core networking concepts.",
+        "keywords": 
+        [
+            "tcp",
+            "udp",
+            "socket",
+            "server",
+            "client"
+        ],
+        "link": "https://docs.python.org/3/library/socket.html"
+    },
+    {
+        "name": "urllib.request",
+        "category": "Networking & HTTP",
+        "user_desc": "Standard-library HTTP client for basic URL fetching without extra dependencies.",
+        "search_desc": "Basic HTTP client utilities (urlopen, Request, urlretrieve) for fetching web resources from the standard library when you don't want external dependencies.",
+        "keywords": 
+        [
+            "urlopen",
+            "http-request",
+            "fetch",
+            "urllib"
+        ],
+        "link": "https://docs.python.org/3/library/urllib.request.html"
+    },
+    {
+        "name": "urllib.parse",
+        "category": "Networking & HTTP",
+        "user_desc": "Utilities to parse, build, and join URLs and query strings.",
+        "search_desc": "URL handling utilities (urlparse, urlencode, parse_qs, urljoin) for reliably parsing and constructing URLs and query strings in networking code.",
+        "keywords": 
+        [
+            "urlparse",
+            "urlencode",
+            "query-string",
+            "parse_qs"
+        ],
+        "link": "https://docs.python.org/3/library/urllib.parse.html"
+    },
+    {
+        "name": "http.server",
+        "category": "Networking & HTTP",
+        "user_desc": "Tiny local HTTP server for development and quick static file serving.",
+        "search_desc": "Lightweight development HTTP server (SimpleHTTPRequestHandler, serve_forever) for serving files and quick local testing without a full framework.",
+        "keywords": 
+        [
+            "simple-http-server",
+            "dev-server",
+            "SimpleHTTPRequestHandler"
+        ],
+        "link": "https://docs.python.org/3/library/http.server.html"
+    },
+    {
+        "name": "hashlib",
+        "category": "Security & Cryptography",
+        "user_desc": "Standard hash functions (sha256, md5) for checksums and fingerprints.",
+        "search_desc": "Standard cryptographic hashing utilities (sha256, md5, blake2) for checksums, digests, caching keys, and simple integrity checks.",
+        "keywords": 
+        [
+            "sha256",
+            "md5",
+            "hash",
+            "digest",
+            "checksum"
+        ],
+        "link": "https://docs.python.org/3/library/hashlib.html"
+    },
+    {
+        "name": "getpass",
+        "category": "Utilities",
+        "user_desc": "Prompt for passwords without echoing them to the terminal.",
+        "search_desc": "Secure input helper to read passwords and secrets from the terminal without showing input, useful for CLI apps and scripts requiring hidden input.",
+        "keywords": 
+        [
+            "password-prompt",
+            "hidden-input",
+            "getpass"
+        ],
+        "link": "https://docs.python.org/3/library/getpass.html"
+    },
+    {
+        "name": "dataclasses",
+        "category": "Typing & Validation",
+        "user_desc": "Lightweight decorator to declare classes for data storage with minimal boilerplate.",
+        "search_desc": "@dataclass utility that auto-generates init, repr, and comparisons to simplify classes used primarily for storing data, with support for default factories and field metadata.",
+        "keywords": 
+        [
+            "dataclass",
+            "asdict",
+            "field",
+            "boilerplate-reduction"
+        ],
+        "link": "https://docs.python.org/3/library/dataclasses.html"
+    },
+    {
+        "name": "enum",
+        "category": "Typing & Validation",
+        "user_desc": "Enum types (Enum, IntEnum) for readable named constants instead of magic values.",
+        "search_desc": "Enumeration types (Enum, IntEnum, auto) for creating type-safe named constants and clearer code semantics to replace magic numbers or strings.",
+        "keywords": 
+        [
+            "enum",
+            "intenum",
+            "auto",
+            "constants"
+        ],
+        "link": "https://docs.python.org/3/library/enum.html"
+    },
+    {
+        "name": "inspect",
+        "category": "Developer Tools",
+        "user_desc": "Introspect functions, signatures, source, and live objects, great for tooling and debugging.",
+        "search_desc": "Introspection utilities (signature, getsource, getmembers) used by debuggers, REPL tools, and dynamic frameworks to analyze live Python objects, function signatures, and source code.",
+        "keywords": 
+        [
+            "introspection",
+            "signature",
+            "getsource",
+            "getmembers"
+        ],
+        "link": "https://docs.python.org/3/library/inspect.html"
+    },
+    {
+        "name": "pprint",
+        "category": "Developer Tools",
+        "user_desc": "Pretty-print nested data structures for human-friendly debugging output.",
+        "search_desc": "Formatter (pprint, pformat) for readable display of complex containers to make debugging output easier to scan and interpret.",
+        "keywords": 
+        [
+            "pretty-print",
+            "pprint",
+            "pformat"
+        ],
+        "link": "https://docs.python.org/3/library/pprint.html"
+    },
+    {
+        "name": "importlib",
+        "category": "Developer Tools",
+        "user_desc": "Programmatic import utilities and dynamic module loading helpers.",
+        "search_desc": "Utilities for importing modules dynamically, accessing package resources, and reloading modules, useful in plugin systems, test harnesses, and tooling.",
+        "keywords": 
+        [
+            "import_module",
+            "dynamic-import",
+            "reload",
+            "resources"
+        ],
+        "link": "https://docs.python.org/3/library/importlib.html"
+    },
+    {
+        "name": "pkgutil",
+        "category": "Developer Tools",
+        "user_desc": "Helpers to walk packages, find resources, and iterate modules for plugins.",
+        "search_desc": "Utilities for package discovery and resource access (iter_modules, walk_packages, get_data) commonly used in plugin systems and package tooling.",
+        "keywords": 
+        [
+            "package-discovery",
+            "iter_modules",
+            "walk_packages",
+            "resources"
+        ],
+        "link": "https://docs.python.org/3/library/pkgutil.html"
+    },
+    {
+        "name": "locale",
+        "category": "Utilities",
+        "user_desc": "Locale-aware formatting for numbers, dates, and currencies.",
+        "search_desc": "Locale utilities (setlocale, format_string, localeconv) for formatting numbers, currencies, and dates according to regional conventions and localization needs.",
+        "keywords": 
+        [
+            "locale",
+            "formatting",
+            "currency",
+            "setlocale"
+        ],
+        "link": "https://docs.python.org/3/library/locale.html"
+    },
+    {
+        "name": "time",
+        "category": "Utilities",
+        "user_desc": "Sleep, timestamps, and monotonic clocks for timing and delays.",
+        "search_desc": "Basic time utilities (time, sleep, perf_counter, monotonic) for measuring durations, delays, and timestamps in scripts and tests.",
+        "keywords": 
+        [
+            "time",
+            "sleep",
+            "perf_counter",
+            "monotonic"
+        ],
+        "link": "https://docs.python.org/3/library/time.html"
+    },
+    {
+        "name": "calendar",
+        "category": "Utilities",
+        "user_desc": "Calendar helpers and printable calendar utilities for scheduling apps.",
+        "search_desc": "Helpers for working with calendar data and rendering simple textual/HTML calendars (monthcalendar, Calendar, HTMLCalendar) useful for scheduling and display purposes.",
+        "keywords": 
+        [
+            "calendar",
+            "monthcalendar",
+            "scheduling",
+            "HTMLCalendar"
+        ],
+        "link": "https://docs.python.org/3/library/calendar.html"
+    },
+    {
+        "name": "orjson",
+        "category": "JSON",
+        "user_desc": "Ultra-fast JSON parser and serializer for Python written in Rust.",
+        "search_desc": "High-performance JSON library that serializes dataclasses and Python objects to JSON and deserializes JSON to Python objects with minimal overhead; great when speed matters for encoding/decoding large payloads.",
+        "keywords": 
+        [
+            "json-parser",
+            "fast-json",
+            "json-serializer",
+            "high-performance-json",
+            "rust-backed-json"
+        ],
+        "link": "https://github.com/ijl/orjson"
+    },
+    {
+        "name": "ujson",
+        "category": "JSON",
+        "user_desc": "UltraJSON, a fast JSON encoder and decoder for Python.",
+        "search_desc": "Lightweight JSON library focused on speed; commonly used as a drop-in faster alternative to the builtin json module for simple serialization/deserialization tasks.",
+        "keywords": 
+        [
+            "json-parser",
+            "fast-json",
+            "ultrajson",
+            "json-encoder",
+            "json-decoder"
+        ],
+        "link": "https://github.com/ultrajson/ultrajson"
+    },
+    {
+        "name": "pytube",
+        "category": "YouTube",
+        "user_desc": "Simple, Pythonic YouTube video downloader and metadata extractor.",
+        "search_desc": "Library to download YouTube videos, streams, and metadata with an easy API; good for small scripts and beginner projects (note: YouTube terms of service apply).",
+        "keywords": 
+        [
+            "youtube-downloader",
+            "download-youtube",
+            "youtube-video",
+            "youtube-metadata",
+            "youtube-stream"
+        ],
+        "link": "https://github.com/pytube/pytube"
+    },
+    {
+        "name": "yt-dlp",
+        "category": "YouTube",
+        "user_desc": "A powerful youtube-dl fork with many extractor updates and features for downloading video/audio from many sites.",
+        "search_desc": "Command-line and Python-usable downloader supporting a vast number of sites, format selection, and postprocessing; preferred for robust, production-ready downloads.",
+        "keywords": 
+        [
+            "youtube-downloader",
+            "yt-dlp",
+            "video-downloader",
+            "youtube-dl-fork",
+            "download-audio"
+        ],
+        "link": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+        "name": "pyAudioAnalysis",
+        "category": "Audio",
+        "user_desc": "Library for analyzing and classifying audio signals, providing tools for feature extraction, segmentation, and audio-based machine learning tasks.",
+        "search_desc": "Comprehensive toolkit for audio feature extraction, classification, segmentation, and visualization. Supports tasks like music genre recognition, speaker identification, sound emotion detection, and general sound event analysis through traditional ML pipelines.",
+        "keywords": 
+        [
+            "audio-analysis",
+            "feature-extraction",
+            "sound-classification",
+            "speech-processing",
+            "audio-segmentation",
+            "machine-learning",
+            "emotion-detection"
+        ],
+        "link": "https://github.com/tyiannak/pyAudioAnalysis"
+    },
+    {
+        "name": "playsound",
+        "category": "Audio",
+        "user_desc": "Tiny library to play a sound file with a single function call.",
+        "search_desc": "Extremely simple cross-platform audio playback for single-file play; useful for quick scripts and notifications but not for advanced audio control.",
+        "keywords": 
+        [
+            "play-audio",
+            "audio-playback",
+            "simple-sound",
+            "play-sound",
+            "playsound"
+        ],
+        "link": "https://pypi.org/project/playsound/"
+    },
+    {
+        "name": "pydub",
+        "category": "Audio",
+        "user_desc": "High-level audio manipulation library that wraps ffmpeg for editing and simple playback support.",
+        "search_desc": "Easily slice, concatenate, export, and transform audio files; integrates with ffmpeg/avlib for format support and basic playback during development.",
+        "keywords": 
+        [
+            "audio-editing",
+            "audio-manipulation",
+            "convert-audio",
+            "export-audio",
+            "ffmpeg-wrapper"
+        ],
+        "link": "https://github.com/jiaaro/pydub"
+    },
+    {
+        "name": "pygame",
+        "category": "Audio",
+        "user_desc": "Game library for Python that includes a mixer module for music and sound playback.",
+        "search_desc": "Popular library for 2D games and simple multimedia apps; pygame.mixer provides reliable audio playback and channel control for games and prototypes.",
+        "keywords": 
+        [
+            "play-audio",
+            "game-audio",
+            "pygame-mixer",
+            "audio-playback",
+            "multimedia-python"
+        ],
+        "link": "https://www.pygame.org/"
+    },
+    {
+        "name": "simpleaudio",
+        "category": "Audio",
+        "user_desc": "Cross-platform simple audio playback for NumPy arrays and WAV files with low latency.",
+        "search_desc": "Lightweight library for synchronous and asynchronous playback of WAV data and NumPy arrays; suitable for small audio tools and experiments.",
+        "keywords": 
+        [
+            "play-wav",
+            "audio-playback",
+            "low-latency-audio",
+            "simple-audio",
+            "wave-playback"
+        ],
+        "link": "https://pypi.org/project/simpleaudio/"
+    },
+    {
+        "name": "python-vlc",
+        "category": "Audio",
+        "user_desc": "Python bindings for VLC media player providing robust playback capabilities for many formats and streams.",
+        "search_desc": "Leverages VLC's backend to play almost any media and handle streaming, playlists, and complex playback scenarios; great when you need full-featured playback control.",
+        "keywords": 
+        [
+            "vlc-python",
+            "media-playback",
+            "stream-playback",
+            "play-audio",
+            "video-audio-playback"
+        ],
+        "link": "https://www.olivieraubert.net/vlc/python-ctypes/"
+    },
+    {
+        "name": "sounddevice",
+        "category": "Audio",
+        "user_desc": "Bindings for the PortAudio library for playback and recording of NumPy arrays.",
+        "search_desc": "Useful for real-time audio I/O in Python, recording from microphone, and playing back audio data arrays; preferred in DSP and audio research prototypes.",
+        "keywords": 
+        [
+            "audio-recording",
+            "real-time-audio",
+            "playback-record",
+            "portaudio-binding",
+            "sounddevice"
+        ],
+        "link": "https://python-sounddevice.readthedocs.io/"
+    },
+    {
+        "name": "googletrans",
+        "category": "Translation",
+        "user_desc": "Unofficial Google Translate API for simple translation tasks (note: can be rate-limited/unofficial).",
+        "search_desc": "Convenient wrapper to access Google Translate-like functionality for quick translation scripts; suitable for prototypes but may be unstable for heavy use or production.",
+        "keywords": 
+        [
+            "translate-text",
+            "google-translate",
+            "text-translation",
+            "translate-api",
+            "language-translate"
+        ],
+        "link": "https://github.com/ssut/py-googletrans"
+    },
+    {
+        "name": "deep-translator",
+        "category": "Translation",
+        "user_desc": "Unified wrapper for multiple translation providers (Google, DeepL, MyMemory, etc.).",
+        "search_desc": "Provides a single API to switch between translation engines easily, handy for backups and experiments when one service is rate-limited or fails.",
+        "keywords": 
+        [
+            "translate-text",
+            "multi-engine-translate",
+            "deepl",
+            "google-translate-wrapper",
+            "translation-api"
+        ],
+        "link": "https://github.com/nidhaloff/deep-translator"
+    },
+    {
+        "name": "smtplib",
+        "category": "Email",
+        "user_desc": "Python standard library module for sending emails via SMTP.",
+        "search_desc": "Low-level SMTP client for sending messages, supports TLS/SSL and authentication; the building block for email sending scripts and utilities.",
+        "keywords": 
+        [
+            "send-email",
+            "smtp",
+            "smtp-client",
+            "email-sending",
+            "python-email"
+        ],
+        "link": "https://docs.python.org/3/library/smtplib.html"
+    },
+    {
+        "name": "yagmail",
+        "category": "Email",
+        "user_desc": "A friendly Gmail/SMTP client wrapper that simplifies sending emails and attachments.",
+        "search_desc": "Convenient helper for sending emails via Gmail with simple authentication, attachments, and HTML support, great for quick automation tasks.",
+        "keywords": 
+        [
+            "send-email",
+            "gmail-api",
+            "smtp-wrapper",
+            "email-automation",
+            "yagmail"
+        ],
+        "link": "https://github.com/kootenpv/yagmail"
+    },
+    {
+        "name": "chatterbot",
+        "category": "Chatbot",
+        "user_desc": "Rule-based and machine-learning backed conversational dialog engine for building simple chatbots.",
+        "search_desc": "Provides tools to train simple conversational models from example dialogs and offers adapters for storage and logic; good for learning chatbot basics but not state-of-the-art LLM chat.",
+        "keywords": 
+        [
+            "chatbot",
+            "conversational-ai",
+            "rule-based-chatbot",
+            "chatbot-trainer",
+            "chatterbot"
+        ],
+        "link": "https://github.com/gunthercox/ChatterBot"
+    },
+    {
+        "name": "peewee",
+        "category": "Database",
+        "user_desc": "Lightweight, expressive ORM for SQLite, Postgres and MySQL with a small API surface.",
+        "search_desc": "Simple but powerful ORM that's easy to integrate into small projects and scripts; less heavyweight than SQLAlchemy and great for quick database models.",
+        "keywords": 
+        [
+            "orm",
+            "sqlite-orm",
+            "lightweight-orm",
+            "peewee-orm",
+            "python-orm"
+        ],
+        "link": "http://docs.peewee-orm.com/"
+    },
+    {
+        "name": "tinydb",
+        "category": "Database",
+        "user_desc": "Tiny, document-oriented database stored as JSON for small apps and prototyping.",
+        "search_desc": "Zero-dependency NoSQL-ish DB that stores Python objects as JSON on disk; ideal for simple local storage without running a DB server.",
+        "keywords": 
+        [
+            "no-sql",
+            "json-database",
+            "local-database",
+            "embedded-db",
+            "tinydb"
+        ],
+        "link": "https://tinydb.readthedocs.io/"
+    },
+    {
+        "name": "PyPDF2",
+        "category": "PDF",
+        "user_desc": "Library for reading, splitting, merging and basic manipulation of PDF files.",
+        "search_desc": "Commonly used for PDF merging, splitting, metadata extraction and basic content manipulation; not specialized in OCR or advanced text extraction.",
+        "keywords": 
+        [
+            "pdf-manipulation",
+            "merge-pdf",
+            "split-pdf",
+            "pdf-metadata",
+            "pdf-tools"
+        ],
+        "link": "https://pypi.org/project/PyPDF2/"
+    },
+    {
+        "name": "pdfplumber",
+        "category": "PDF",
+        "user_desc": "Focused PDF text and table extraction with good handling of layout and coordinates.",
+        "search_desc": "Built on pdfminer; excels at extracting structured text and tables from PDFs for data extraction workflows where layout matters.",
+        "keywords": 
+        [
+            "pdf-extract",
+            "pdf-to-text",
+            "extract-tables",
+            "pdf-parser",
+            "pdfplumber"
+        ],
+        "link": "https://github.com/jsvine/pdfplumber"
+    },
+    {
+        "name": "opencv-python",
+        "category": "Image Processing",
+        "user_desc": "OpenCV bindings for Python providing a broad set of computer vision algorithms and utilities.",
+        "search_desc": "Industry-standard toolkit for image and video processing: filters, feature detection, object detection, camera I/O, and more; perfect for classic CV tasks.",
+        "keywords": 
+        [
+            "image-processing",
+            "computer-vision",
+            "face-detection",
+            "video-processing",
+            "opencv"
+        ],
+        "link": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html"
+    },
+    {
+        "name": "rembg",
+        "category": "Image Processing",
+        "user_desc": "Tool and library for removing image backgrounds using machine learning models.",
+        "search_desc": "Fast background removal utility that uses segmentation models to produce transparent backgrounds, useful for thumbnails, product photos, and quick image editing.",
+        "keywords": 
+        [
+            "remove-background",
+            "background-removal",
+            "transparent-background",
+            "image-segmentation",
+            "rembg"
+        ],
+        "link": "https://github.com/danielgatis/rembg"
+    },
+    {
+        "name": "SpeechRecognition",
+        "category": "Speech",
+        "user_desc": "Library for performing speech recognition with support for multiple engines and APIs (Google, Sphinx, etc.).",
+        "search_desc": "High-level API to transcribe audio from microphone or file using various backends; excellent for prototyping speech-to-text features.",
+        "keywords": 
+        [
+            "speech-to-text",
+            "speech-recognition",
+            "transcribe-audio",
+            "voice-to-text",
+            "speechrecognition"
+        ],
+        "link": "https://pypi.org/project/SpeechRecognition/"
+    },
+    {
+        "name": "pyttsx3",
+        "category": "Text-to-Speech",
+        "user_desc": "Offline text-to-speech library that works with native TTS engines on Windows, macOS, and Linux.",
+        "search_desc": "Useful for creating spoken output without relying on internet services; provides control over voice, rate, and volume.",
+        "keywords": 
+        [
+            "text-to-speech",
+            "offline-tts",
+            "tts",
+            "speak-text",
+            "pyttsx3"
+        ],
+        "link": "https://pypi.org/project/pyttsx3/"
+    },
+    {
+        "name": "gTTS",
+        "category": "Text-to-Speech",
+        "user_desc": "Google Text-to-Speech wrapper that fetches TTS audio from Google Translate's API.",
+        "search_desc": "Easy, internet-based TTS that converts text to MP3 using Google's voices; great for prototypes but requires network access.",
+        "keywords": 
+        [
+            "text-to-speech",
+            "google-tts",
+            "gtts",
+            "tts-api",
+            "speak-text-online"
+        ],
+        "link": "https://pypi.org/project/gTTS/"
+    },
+    {
+        "name": "qrcode",
+        "category": "QR & Barcode",
+        "user_desc": "Simple library to generate QR codes as images from text or URLs.",
+        "search_desc": "Create QR codes for URLs, contact info, or arbitrary payloads; supports customization and export to image formats.",
+        "keywords": 
+        [
+            "qr-code",
+            "qr-generator",
+            "generate-qr",
+            "create-qr-code",
+            "qrcode"
+        ],
+        "link": "https://pypi.org/project/qrcode/"
+    },
+    {
+        "name": "pyzbar",
+        "category": "QR & Barcode",
+        "user_desc": "Wrapper around the ZBar C library for decoding barcodes and QR codes from images.",
+        "search_desc": "Read and decode QR codes and various barcode formats from images or camera frames; often used with OpenCV for capture + decode pipelines.",
+        "keywords": 
+        [
+            "qr-scan",
+            "barcode-scan",
+            "decode-qr",
+            "qr-reader",
+            "pyzbar"
+        ],
+        "link": "https://pypi.org/project/pyzbar/"
+    },
+    {
+        "name": "forex-python",
+        "category": "Finance",
+        "user_desc": "Currency conversion and exchange rate library with support for historical rates.",
+        "search_desc": "Convenient wrapper to fetch exchange rates and convert amounts between currencies; useful for small financial tools and currency utilities.",
+        "keywords": 
+        [
+            "currency-converter",
+            "exchange-rates",
+            "convert-currency",
+            "forex-api",
+            "forex-python"
+        ],
+        "link": "https://pypi.org/project/forex-python/"
+    },
+    {
+        "name": "faiss",
+        "category": "Vector Search",
+        "user_desc": "High-performance similarity search library by Facebook AI Research for large vector sets.",
+        "search_desc": "State-of-the-art C++/Python library for nearest-neighbor search over large embedding spaces; excellent for scalable semantic search and clustering.",
+        "keywords": 
+        [
+            "vector-search",
+            "nearest-neighbor",
+            "faiss",
+            "similarity-search",
+            "ann-index"
+        ],
+        "link": "https://faiss.ai/index.html"
+    },
+    {
+        "name": "chromadb",
+        "category": "Vector Search",
+        "user_desc": "Developer-friendly open-source vector database for embeddings and semantic search.",
+        "search_desc": "Easy-to-use vector DB with multiple storage backends and retrieval primitives; designed for building semantic search, recommendation, and retrieval-augmented generation systems.",
+        "keywords": 
+        [
+            "vector-database",
+            "semantic-search",
+            "embeddings-db",
+            "vector-store",
+            "chromadb"
+        ],
+        "link": "https://www.chromadb.com/"
+    }
+]
