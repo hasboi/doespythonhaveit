@@ -52,13 +52,15 @@ But honestly, if you spot something off anywhere else or have a cool idea, go fo
 
 4. Commit and push your work
     ```bash
-    git commit -m "Added something cool"
-    git push origin feature-your-idea
+    git commit -m "feat: added something cool"
+    git push origin feature/your-cool-idea
     ```
 
 5. Open a Pull Request (PR), explain what you changed and why
 
-6. I'll check it out, maybe test it, and if it is nice, I will merge it!
+6. I'll check it out, maybe test it, and if it is awesome, I will merge it!
+
+*Prefix commit messages with `feat:`, `fix:`, `docs:`, etc. (optional but cool)
 
 # Installation 
 In case you want to run this locally.
