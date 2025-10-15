@@ -1,4 +1,4 @@
-![doespythonhaveit](frontend/static/assets/preview.gif)
+![doespythonhaveit](preview.gif)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -6,6 +6,8 @@
 ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+*You are looking at the backend, to see the frontend repository, [click here](https://github.com/hasboi/doespythonhaveit-web)*
 
 # doespythonhaveit.com
 A tiny open-source library engine powered by FastAPI and sentence_transformer.
@@ -68,13 +70,19 @@ But honestly, if you spot something off anywhere else or have a cool idea, go fo
 # Installation 
 In case you want to run this locally.
 
-1. Clone this repo:
+1. Clone both repositories:
     ```bash
+    # backend (API)
    git clone https://github.com/hasboi/doespythonhaveit.git
-   cd dphi
-   ```
+   cd dphi-api
 
-2. Create virtual environment and activate it:
+   # frontend
+   git clone https://github.com/hasboi/doespythonhaveit-web.git
+    cd doespythonhaveit-web
+   ```
+   You should now have two folders sitting side by side
+
+2. Create virtual environment in your API folder and activate it:
     ```bash
     python -m venv venv
     source venv/bin/activate    # on Linux/Mac
@@ -93,7 +101,7 @@ In case you want to run this locally.
     uvicorn main:app --reload
     ```
 
-5. Then access it from `index.html`.  
+5. Then access it from `index.html`, I suggest to use VS code's live server or Python's local web server (you can find it in the doespythonhaveit btw).  
    You might also want to double-check the allowed origins in `main.py`, these define which URLs can talk to your API:  
    ```python
    origins = [
