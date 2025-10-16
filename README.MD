@@ -3,28 +3,34 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-2D2D2D?style=for-the-badge&logo=huggingface&logoColor=FEE140)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Sponsor](https://img.shields.io/github/sponsors/hasboi)
 
 *You are looking at the backend, to see the frontend repository, [click here](https://github.com/hasboi/doespythonhaveit-web)*
 
-# doespythonhaveit.com
-A tiny open-source library engine powered by FastAPI and sentence_transformer.
-You can try it live at [doespythonhaveit.com](https://doespythonhaveit.com) or soon use it directly from your terminal.
+# doespythonhaveit.com  
+A tiny open-source library engine powered by FastAPI and sentence_transformers.  
+(This is the **API repository**, you can keep it separate if you want to build your own frontend on top of this engine. But if you'd like to use my frontend as well, please visit the [frontend repository](https://github.com/hasboi/doespythonhaveit-web).)
+
+The live version isn't up yet, but you can install and run it locally to explore how it works.  
+Once deployed, it'll be available at [doespythonhaveit.com](https://doespythonhaveit.com), and eventually, you'll be able to use it directly from your terminal.
 
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
 - [Contributions](#contributions)
-- [Installation](#Installation)
+- [Installation](#installation)
+- [Sponsorship](#sponsorship)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## About
 I built **doespythonhaveit** because I think it is nice to have a place where you can find libraries that fit your projects.
 
-So instead of memorizing 9000 library names, this little app lets you search libraries *semantically*, like, you can type:
+Like, you can type:
 > "machine learning time series"
 
 and it'll (hopefully) find stuff like `scikit-learn` or `darts`.  
@@ -33,6 +39,7 @@ and it'll (hopefully) find stuff like `scikit-learn` or `darts`.
 - Search Python libraries using natural language
 - Runs on **FastAPI** with **Sentence Transformers**
 - Simple JSON dataset
+- (TBA) Use it online
 - (TBA) Search in your terminal
 - Contributions are welcome (please I am very new here)
 
@@ -68,7 +75,7 @@ But honestly, if you spot something off anywhere else or have a cool idea, go fo
 *Prefix commit messages with `feat:`, `fix:`, `docs:`, etc. (optional but cool)
 
 # Installation 
-In case you want to run this locally.
+If you want to run this locally since the website is not online, yet.
 
 1. Clone both repositories:
     ```bash
@@ -101,7 +108,8 @@ In case you want to run this locally.
     uvicorn main:app --reload
     ```
 
-5. Then access it from `index.html`, I suggest to use VS code's live server or Python's local web server (you can find it in the doespythonhaveit btw).  
+5. Then access it from `index.html`, You can use VS Code’s Live Server or Python’s local web server.
+   
    You might also want to double-check the allowed origins in `main.py`, these define which URLs can talk to your API:  
    ```python
    origins = [
@@ -110,9 +118,18 @@ In case you want to run this locally.
        "http://127.0.0.1:5000",
        "http://localhost:3000",
        "https://doespythonhaveit.com",
+       # add something here!
    ]
    ```
    If you're testing from a different port (like using a custom frontend), make sure to add your URL here, or the browser will hit you with that CORS policy.
+
+# Sponsorship
+
+Running this API online costs more than a free-tier server can handle, the model behind it, [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2), is kinda chunky and eats memory for breakfast.
+
+If you find this project interesting, useful, or just want to help me keep it alive online someday, you can support me by becoming a [sponsor](https://github.com/sponsors/hasboi)!
+
+Even small support helps, hosting and maintaining this API demo costs real money, and every contribution brings the public version closer to life.
 
 ## Acknowledgements
 
@@ -120,7 +137,7 @@ Massive thanks to:
 - **FastAPI** for letting my backend actually be fast  
 - **Sentence Transformers** for giving the search engine a brain  
 - **Awesome Python** for being the motherlode of library inspiration  
-- And every kind soul contributing, fixing typos, or just cheering from the sidelines 💙  
+- And every kind soul sponsoring, contributing, fixing typos, or just cheering from the sidelines 💙  
 
 ## License
 This project is licensed under the MIT license, see [LICENSE](https://github.com/hasboi/doespythonhaveit/blob/main/LICENSE)
